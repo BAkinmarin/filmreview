@@ -41,8 +41,25 @@ This website was created using the Five Planes of Website Design:
 
 ## Features
 
-- [Existing Features](#existing-features)
-- [Future Features](#future-features)
+[Back to Top](#overview)
+
+## Responsiveness
+
+[Back to Top](#overview)
+
+## Technologies
+
+[Back to Top](#overview)
+
+## Testing
+
+[Back to Top](#overview)
+
+## Bugs
+
+[Back to Top](#overview)
+
+## Deployment
 
 [Back to Top](#overview)
 
@@ -51,5 +68,9 @@ This website was created using the Five Planes of Website Design:
 - [Content](#content)
 - [Media](#media)
 - [Code](#code)
+
+[Back to Top](#overview)
+
+## Acknowledgements
 
 [Back to Top](#overview)
