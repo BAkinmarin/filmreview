@@ -11,23 +11,13 @@ My Film Review Site is a blog website bringing you fresh views of different genr
 
 1. [Overview](#overview)
 2. [UX](#ux)
-    - [Strategy](#strategy)
-    - [Scope](scope)
-    - [Structure](structure)
-    - [Skeleton](skeleton)
-    - [Surface](surface)
 3. [Features](#features)
-    - [Existing Features](#existing-features)
-    - [Future Features](#future-features)
 4. [Responsiveness](#responsiveness)
 5. [Technologies](#technologies)
 6. [Testing](#testing)
 7. [Bugs](#bugs)
 8. [Deployment](#deployment)
 9. [Credits](#credits)
-    - [Content](#content)
-    - [Media](#media)
-    - [Code](#code)
 10. [Acknowledgements](#acknowledgements)
 
 
@@ -40,5 +30,26 @@ The site was created using Django and has full CRUD functionality and an intuiti
 ## UX
 
 This website was created using the Five Planes of Website Design:
+
+- [Strategy](#strategy)
+- [Scope](scope)
+- [Structure](structure)
+- [Skeleton](skeleton)
+- [Surface](surface)
+
+[Back to Top](#overview)
+
+## Features
+
+- [Existing Features](#existing-features)
+- [Future Features](#future-features)
+
+[Back to Top](#overview)
+
+## Credits
+
+- [Content](#content)
+- [Media](#media)
+- [Code](#code)
 
 [Back to Top](#overview)
