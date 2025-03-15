@@ -79,6 +79,26 @@ This website was created using the Five Planes of Website Design:
     </div>
 </details>
 
+<details>
+    <summary>Testing Phase</summary>
+    <div style="display: flex; justify-content: center;">
+        <div style="overflow-x: auto; width: 80%;">
+            <table style="margin: 0 auto; border-collapse: collapse; width: 100%;">
+                <tr>
+                    <th>Bug</th>
+                    <th>Solution</th>
+                    <th>Pass/Fail</th>
+                </tr>
+                <tr>
+                    <td>Application Error in Heroku [H10]</td>
+                    <td>Resolved by amending the project name in the Procfile</td>
+                    <td>Pass</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</details>
+
 [Back to Top](#overview)
 
 ## Deployment
@@ -87,9 +107,12 @@ This website was created using the Five Planes of Website Design:
 
 ## Credits
 
-- [Content](#content)
-- [Media](#media)
-- [Code](#code)
+### [Content](#content)
+- [Dimitris' README](https://github.com/Dimitris112/rum-away-testp4/blob/main/README.md) inspired the use of toggle view for tables.
+
+### [Media](#media)
+
+### [Code](#code)
 
 [Back to Top](#overview)
 
