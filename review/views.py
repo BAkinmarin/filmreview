@@ -7,4 +7,4 @@ def index(request):
     if request.method == "POST":
         return HttpResponse("Work In Progress...")
     else:
-        return HttpResponse(request.method)
+        return HttpResponse("Review page...")
