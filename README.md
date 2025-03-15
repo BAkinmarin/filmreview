@@ -49,6 +49,86 @@ This website was created using the Five Planes of Website Design:
 
 ## Technologies
 
+<table>
+  <tr>
+    <td valign="top">
+      <table>
+        <tr>
+          <td><strong>Backend</strong></td>
+          <td style="text-align:right;">Django 5.1.1 <code>Django==5.1.1</code></td>
+        </tr>
+        <tr>
+          <td><strong>API</strong></td>
+          <td style="text-align:right;">TBD <code>TBD</code></td>
+        </tr>
+        <tr>
+          <td><strong>Database</strong></td>
+          <td style="text-align:right;">PostgreSQL <code>TBD</code></td>
+        </tr>
+        <tr>
+          <td><strong>Authentication</strong></td>
+          <td style="text-align:right;">TBD <code>TBD</code></td>
+        </tr>
+        <tr>
+          <td><strong>Frontend</strong></td>
+          <td style="text-align:right;">JavaScript, JSON, HTML5, CSS3</td>
+        </tr>
+        <tr>
+          <td><strong>Styling</strong></td>
+          <td style="text-align:right;">TBD <code>TBD</code></td>
+        </tr>
+        <tr>
+          <td><strong>Media Storage</strong></td>
+          <td style="text-align:right;">TBD <code>TBD</code></td>
+        </tr>
+        <tr>
+          <td><strong>Static Files</strong></td>
+          <td style="text-align:right;">Whitenoise <code>whitenoise==6.9.0</code></td>
+        </tr>
+        <tr>
+          <td><strong>Server</strong></td>
+          <td style="text-align:right;">Gunicorn <code>gunicorn==23.0.0</code></td>
+        </tr>
+        <tr>
+          <td><strong>Image Handling</strong></td>
+          <td style="text-align:right;">TBD <code>TBD</code></td>
+        </tr>
+      </table>
+    </td>
+    <td valign="top" style="padding-left: 20px;">
+      <h3>Other Dependencies</h3>
+      <ul style="list-style-type: none; padding-left: 0;">
+        <li><code>asgiref==3.8.1</code></li>
+        <li><code>packaging==24.2</code></li>
+        <li><code>setuptools==76.0.0</code></li>
+        <li><code>sqlparse==0.5.3</code></li>
+        <li><code>tzdata==2025.1</code></li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+### Tools
+
+<!--- [Github](https://github.com/): Used to host source code and version control.
+- [VSCode](https://code.visualstudio.com/): Used as Integrated Development Environment (IDE).
+- [Font Awesome](https://fontawesome.com/): Source of all the icons used in this project.
+- [Favicon io](https://favicon.io/favicon-converter/): Used to generate the favicon.
+- [TBD](): Used to create the wireframes.
+- [TBD](): Used to compress each image used in the project for optimal load times.
+- [TBD](): Used to create the ERD.
+- [TBD](): Used for animations on 404 page.-->
+
+<!--### Packages
+- [Django](https://www.djangoproject.com/) was used as the framework for the blog.
+- [Allauth](https://django-allauth.readthedocs.io/) for the login authentication.
+- [Crispy Forms](https://django-crispy-forms.readthedocs.io/) for help styling the forms.
+- [Cloudinary](https://cloudinary.com/) for hosting the images.
+- [Gunicorn](https://gunicorn.org/) for handling the HTTP requests in production.
+- [Psycopg2](https://www.psycopg.org/) for aiding communication between Django and PostgresSQL
+- [Formtools](https://django-formtools.readthedocs.io/) for additional form utilities.
+- [Whitenoise](http://whitenoise.evans.io/en/stable/) for deploying the static files to Heroku.-->
+
 [Back to Top](#overview)
 
 ## Testing
@@ -108,7 +188,11 @@ This website was created using the Five Planes of Website Design:
 ## Credits
 
 ### [Content](#content)
+- [Spence's README](https://github.com/5pence/djangohelp/blob/main/readme.MD) was useful for setting up Django on my Windows machine.
+
 - [Dimitris' README](https://github.com/Dimitris112/rum-away-testp4/blob/main/README.md) inspired the use of toggle view for tables.
+
+- [Dan's README](https://github.com/DanMorriss/nialls-barbershop/blob/main/README.md) inspired some of the descriptions used in my write up.
 
 ### [Media](#media)
 
