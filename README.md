@@ -57,6 +57,28 @@ This website was created using the Five Planes of Website Design:
 
 ## Bugs
 
+### Fixed Bugs
+
+<details>
+    <summary>Deployment Phase</summary>
+    <div style="display: flex; justify-content: center;">
+        <div style="overflow-x: auto; width: 80%;">
+            <table style="margin: 0 auto; border-collapse: collapse; width: 100%;">
+                <tr>
+                    <th>Bug</th>
+                    <th>Solution</th>
+                    <th>Pass/Fail</th>
+                </tr>
+                <tr>
+                    <td>Application Error in Heroku [H10]</td>
+                    <td>Resolved by amending the project name in the Procfile</td>
+                    <td>Pass</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</details>
+
 [Back to Top](#overview)
 
 ## Deployment
