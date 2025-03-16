@@ -206,9 +206,14 @@ This website was created using the Five Planes of Website Design:
 
 - [Dan's README](https://github.com/DanMorriss/nialls-barbershop/blob/main/README.md) inspired some of the descriptions used in my write up.
 
+- [StoriesOnBoard Blog](https://storiesonboard.com/blog/user-story-examples) inspired some of the language used in my User Stories write up.
+
+- [Maria Pavlenko's Blog](https://www.altexsoft.com/blog/user-stories/) inspired some of the language used in my User Stories write u and template.
+
 ### [Media](#media)
 
 ### [Code](#code)
+- [Code Institute's Codestar Blog]() inspired the idea behind the blog and was used in setting up the Database.
 
 [Back to Top](#ux)
 
