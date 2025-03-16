@@ -213,7 +213,7 @@ This website was created using the Five Planes of Website Design:
 ### [Media](#media)
 
 ### [Code](#code)
-- [Code Institute's Codestar Blog]() inspired the idea behind the blog and was used in setting up the Database.
+- [Code Institute's Codestar Blog]() inspired the idea behind the blog and was used in setting and wiring up the Database.
 
 [Back to Top](#ux)
 
