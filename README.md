@@ -2,7 +2,7 @@
 
 My Film Review Site is a blog website bringing you fresh views of different genres of films. The web application allows users to register an account, login, and comment on reviews.
 
-![Am I Responsive Screenshot]()
+<!--![Am I Responsive Screenshot]()-->
 
 - [Live Site]()
 - [GitHub Repository]()
@@ -34,6 +34,8 @@ This website was created using the Five Planes of Website Design:
 - [Strategy](#strategy)
 ### User
 
+ <!--As a user, I want to be presented with a paginated list of posts, so that I can select which post I want to view in more detail.-->
+
  <!--As a user, I want to read film reviews so I know what to expect before committing to watching a film.
 
  As a user, I want to search film reviews by genre so I do not have to scroll through unneccessary content.
@@ -42,7 +44,7 @@ This website was created using the Five Planes of Website Design:
 
  As a user, I want to know what films are yet to be released and their release date.
 
- As a user, I want to modify or delete comments previously left on posts.-->>
+ As a user, I want to modify or delete comments previously left on posts.-->
 
 - [Scope](scope)
 - [Structure](structure)
