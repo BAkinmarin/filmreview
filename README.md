@@ -73,7 +73,7 @@ This website was created using the Five Planes of Website Design:
         </tr>
         <tr>
           <td><strong>Database</strong></td>
-          <td style="text-align:right;">PostgreSQL <code>TBD</code></td>
+          <td style="text-align:right;">PostgreSQL <code>psycopg2==2.9.10</code></td>
         </tr>
         <tr>
           <td><strong>Authentication</strong></td>
@@ -112,6 +112,7 @@ This website was created using the Five Planes of Website Design:
         <li><code>packaging==24.2</code></li>
         <li><code>setuptools==76.0.0</code></li>
         <li><code>sqlparse==0.5.3</code></li>
+        <li><code>typing_extensions==4.12.2</code></li>
         <li><code>tzdata==2025.1</code></li>
       </ul>
     </td>
