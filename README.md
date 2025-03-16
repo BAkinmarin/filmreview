@@ -2,6 +2,8 @@
 
 My Film Review Site is a blog website bringing you fresh views of different genres of films. The web application allows users to register an account, login, and comment on reviews.
 
+This blogsite was created using Django and has full CRUD functionality and an intuitive User Interface to make the process of interacting with reviews simple and enjoyable.
+
 <!--![Am I Responsive Screenshot]()-->
 
 - [Live Site]()
@@ -9,9 +11,9 @@ My Film Review Site is a blog website bringing you fresh views of different genr
 
 ## Table of Contents
 
-1. [Overview](#overview)
-2. [UX](#ux)
-3. [Features](#features)
+1. [UX](#ux)
+2. [Features](#features)
+3. [Future Features](#future-features)
 4. [Responsiveness](#responsiveness)
 5. [Technologies](#technologies)
 6. [Testing](#testing)
@@ -20,12 +22,6 @@ My Film Review Site is a blog website bringing you fresh views of different genr
 9. [Credits](#credits)
 10. [Acknowledgements](#acknowledgements)
 
-
-## Overview
-
-The site was created using Django and has full CRUD functionality and an intuitive User Interface to make the process of interacting with reviews simple and enjoyable.
-
-[Back to Top](#overview)
 
 ## UX
 
@@ -51,15 +47,15 @@ This website was created using the Five Planes of Website Design:
 - [Skeleton](skeleton)
 - [Surface](surface)
 
-[Back to Top](#overview)
+[Back to Top](#ux)
 
 ## Features
 
-[Back to Top](#overview)
+[Back to Top](#ux)
 
 ## Responsiveness
 
-[Back to Top](#overview)
+[Back to Top](#ux)
 
 ## Technologies
 
@@ -122,6 +118,8 @@ This website was created using the Five Planes of Website Design:
   </tr>
 </table>
 
+[Back to Top](#ux)
+
 ### Tools
 
 <!--- [Github](https://github.com/): Used to host source code and version control.
@@ -143,11 +141,11 @@ This website was created using the Five Planes of Website Design:
 - [Formtools](https://django-formtools.readthedocs.io/) for additional form utilities.
 - [Whitenoise](http://whitenoise.evans.io/en/stable/) for deploying the static files to Heroku.-->
 
-[Back to Top](#overview)
+[Back to Top](#ux)
 
 ## Testing
 
-[Back to Top](#overview)
+[Back to Top](#ux)
 
 ## Bugs
 
@@ -193,11 +191,11 @@ This website was created using the Five Planes of Website Design:
     </div>
 </details>
 
-[Back to Top](#overview)
+[Back to Top](#ux)
 
 ## Deployment
 
-[Back to Top](#overview)
+[Back to Top](#ux)
 
 ## Credits
 
@@ -212,8 +210,8 @@ This website was created using the Five Planes of Website Design:
 
 ### [Code](#code)
 
-[Back to Top](#overview)
+[Back to Top](#ux)
 
 ## Acknowledgements
 
-[Back to Top](#overview)
+[Back to Top](#ux)s
