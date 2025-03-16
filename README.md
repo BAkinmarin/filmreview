@@ -32,6 +32,18 @@ The site was created using Django and has full CRUD functionality and an intuiti
 This website was created using the Five Planes of Website Design:
 
 - [Strategy](#strategy)
+### User
+
+ <!--As a user, I want to read film reviews so I know what to expect before committing to watching a film.
+
+ As a user, I want to search film reviews by genre so I do not have to scroll through unneccessary content.
+
+ As a user, I want to interact with both film reviews from the author and comments from other visitors.
+
+ As a user, I want to know what films are yet to be released and their release date.
+
+ As a user, I want to modify or delete comments previously left on posts.-->>
+
 - [Scope](scope)
 - [Structure](structure)
 - [Skeleton](skeleton)
