@@ -129,7 +129,7 @@ This website was created using the Five Planes of Website Design:
 - [Favicon io](https://favicon.io/favicon-converter/): Used to generate the favicon.
 - [TBD](): Used to create the wireframes.
 - [TBD](): Used to compress each image used in the project for optimal load times.
-- [TBD](): Used to create the ERD.
+- [AssignmentGPT AI](https://assignmentgpt.ai/): Used to create the ERD.
 - [TBD](): Used for animations on 404 page.-->
 
 <!--### Packages
