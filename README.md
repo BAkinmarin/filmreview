@@ -1,8 +1,8 @@
-# My Film Review Site
+# My Film Review Blog
 
-My Film Review Site is a blog website bringing you fresh views of different genres of films. The web application allows users to register an account, login, and comment on reviews.
+My Film Review is a blog bringing you fresh and original views of different genres of films. This web application allows users to register an account, login, and comment on reviews.
 
-This blogsite was created using Django and has full CRUD functionality and an intuitive User Interface to make the process of interacting with reviews simple and enjoyable.
+This blog was created using Django and has full CRUD functionality with an intuitive User Interface to make interactions with posts and other users simple and fun!
 
 <!--![Am I Responsive Screenshot]()-->
 
@@ -220,4 +220,4 @@ This website was created using the Five Planes of Website Design:
 
 ## Acknowledgements
 
-[Back to Top](#ux)s
+[Back to Top](#ux)
