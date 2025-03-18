@@ -114,6 +114,7 @@ This website was created using the Five Planes of Website Design:
         <li><code>sqlparse==0.5.3</code></li>
         <li><code>typing_extensions==4.12.2</code></li>
         <li><code>tzdata==2025.1</code></li>
+        <li><code>django-summernote==0.8.20.0</code></li>
       </ul>
     </td>
   </tr>
@@ -129,7 +130,7 @@ This website was created using the Five Planes of Website Design:
 - [Favicon io](https://favicon.io/favicon-converter/): Used to generate the favicon.
 - [TBD](): Used to create the wireframes.
 - [TBD](): Used to compress each image used in the project for optimal load times.
-- [AssignmentGPT AI](https://assignmentgpt.ai/): Used to create the ERD.
+- [AssignmentGPT AI](https://assignmentgpt.ai/): Used to create the Entity Relationship Diagram (ERD).
 - [TBD](): Used for animations on 404 page.-->
 
 <!--### Packages
@@ -139,8 +140,7 @@ This website was created using the Five Planes of Website Design:
 - [Cloudinary](https://cloudinary.com/) for hosting the images.
 - [Gunicorn](https://gunicorn.org/) for handling the HTTP requests in production.
 - [Psycopg2](https://www.psycopg.org/) for aiding communication between Django and PostgresSQL
-- [Formtools](https://django-formtools.readthedocs.io/) for additional form utilities.
-- [Whitenoise](http://whitenoise.evans.io/en/stable/) for deploying the static files to Heroku.-->
+- [Formtools](https://django-formtools.readthedocs.io/) for additional form utilities.-->
 
 [Back to Top](#ux)
 
