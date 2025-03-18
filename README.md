@@ -153,7 +153,7 @@ This website was created using the Five Planes of Website Design:
 ### Fixed Bugs
 
 <details>
-    <summary>Deployment Phase</summary>
+    <summary>Development Phase</summary>
     <div style="display: flex; justify-content: center;">
         <div style="overflow-x: auto; width: 80%;">
             <table style="margin: 0 auto; border-collapse: collapse; width: 100%;">
@@ -170,6 +170,11 @@ This website was created using the Five Planes of Website Design:
                 <tr>
                     <td>Virtual Environment Pushed to GitHub</td>
                     <td>Resolved using git rm command in terminal</td>
+                    <td>Pass</td>
+                </tr>
+                <tr>
+                    <td>Summernote 404 Error</td>
+                    <td>Resolved by setting DEBUG to True</td>
                     <td>Pass</td>
                 </tr>
             </table>
