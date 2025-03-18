@@ -167,6 +167,11 @@ This website was created using the Five Planes of Website Design:
                     <td>Resolved by amending the project name in the Procfile</td>
                     <td>Pass</td>
                 </tr>
+                <tr>
+                    <td>Virtual Environment Pushed to GitHub</td>
+                    <td>Resolved using git rm command in terminal</td>
+                    <td>Pass</td>
+                </tr>
             </table>
         </div>
     </div>
