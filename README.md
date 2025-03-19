@@ -183,7 +183,7 @@ This website was created using the Five Planes of Website Design:
 </details>
 
 <details>
-    <summary>Testing Phase</summary>
+    <summary>Deployment Phase</summary>
     <div style="display: flex; justify-content: center;">
         <div style="overflow-x: auto; width: 80%;">
             <table style="margin: 0 auto; border-collapse: collapse; width: 100%;">
@@ -193,8 +193,13 @@ This website was created using the Five Planes of Website Design:
                     <th>Pass/Fail</th>
                 </tr>
                 <tr>
-                    <td>Application Error in Heroku [H10]</td>
-                    <td>Resolved by amending the project name in the Procfile</td>
+                    <td>Error Loading Django Template</td>
+                    <td>Resolved by moving index.html to correct directory and updating template_name</td>
+                    <td>Pass</td>
+                </tr>
+                <tr>
+                    <td>Error Loading Static CSS</td>
+                    <td>Resolved by ...</td>
                     <td>Pass</td>
                 </tr>
             </table>
