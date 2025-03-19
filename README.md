@@ -6,8 +6,8 @@ This blog was created using Django and has full CRUD functionality with an intui
 
 <!--![Am I Responsive Screenshot]()-->
 
-- [Live Site]()
-- [GitHub Repository]()
+- [Live Site](https://my-film-blog-pp4-d9dc642517af.herokuapp.com/)
+- [GitHub Repository](https://github.com/BAkinmarin/filmreview)
 
 ## Table of Contents
 
