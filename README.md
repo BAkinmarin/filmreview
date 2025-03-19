@@ -42,6 +42,12 @@ This website was created using the Five Planes of Website Design:
 
  As a user, I want to modify or delete comments previously left on posts.-->
 
+ ### Super User
+
+ <!--As a super user, I want to be able to add posts on a user-friendly inteface.
+
+ As a super user, I want to be able to monitor comments with full CRUD functionality.-->
+
 - [Scope](scope)
 - [Structure](structure)
 - [Skeleton](skeleton)
