@@ -229,7 +229,7 @@ This website was created using the Five Planes of Website Design:
 ### [Media](#media)
 
 ### [Code](#code)
-- [Code Institute's Codestar Blog]() inspired the idea behind the blog and was used in setting and wiring up the Database.
+- [Code Institute's Codestar Blog Walkthrough]() inspired the idea for this project and informed the process for setting and wiring up the database, coding with Django and environment variables.
 
 [Back to Top](#ux)
 
