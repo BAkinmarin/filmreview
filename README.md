@@ -199,7 +199,7 @@ This website was created using the Five Planes of Website Design:
                 </tr>
                 <tr>
                     <td>Error Loading Static CSS</td>
-                    <td>Resolved by ...</td>
+                    <td>Resolved by setting DEBUG to True</td>
                     <td>Pass</td>
                 </tr>
             </table>
