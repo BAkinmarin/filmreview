@@ -21,6 +21,8 @@
                             <a href="{% url 'post_detail' post.slug %}" class="post-link">
                                 <h2 class="card-title">{{ post.title }}</h2>
                             </a>
+                            {% if post.image %}
+                                <img src="{{ post.image.url }}" alt="Image for {{ post.title }}" style="max-width: 100%;">
                             <p class="card-text">{{ post.excerpt }}</p>
 
                             <hr />
