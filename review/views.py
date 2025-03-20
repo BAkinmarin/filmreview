@@ -13,23 +13,24 @@ class PostList(generic.ListView):
 
 def post_detail(request, slug):
     """
-    Display an individual :model:`blog.Post`.
+    Display an individual :model:`review.Post`.
 
     **Context**
 
-    ``post``
-        An instance of :model:`blog.Post`.
+    ``review``
+        An instance of :model:`review.Post`.
 
     **Template:**
 
-    :template:`blog/post_detail.html`
+    :template:`review/post_detail.html`
     """
 
     queryset = Post.objects.filter(status=1)
     post = get_object_or_404(queryset, slug=slug)
+    print('post:', post)
 
     return render(
         request,
-        "blog/post_detail.html",
+        "review/post_detail.html",
         {"post": post},
     )
