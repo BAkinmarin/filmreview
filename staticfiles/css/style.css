@@ -8,7 +8,7 @@ body {
     font-family: "Federo", sans-serif;
     font-size: 2rem;
     font-weight: 700;
-    color: #4A4A4F;
+    color: #FDFBED;
 }
 
 h2 {
@@ -35,7 +35,7 @@ h2 {
 }
 
 .main-bg {
-    background-color: #F6BE9A;
+    background-color: #eee8e5;
 }
 
 .card {
@@ -110,7 +110,8 @@ h2 {
 }
 
 .post-link:hover,
-.page-link {
+.page-link,
+h2:hover {
     color: #E84610;
 }
 
@@ -176,4 +177,16 @@ h2 {
 .film-nav {
     background-color: #004643;
     color:#FDFBED;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #FDFBED;
+}
+
+.mute {
+    font-style: italic;
+}
+
+.text-white {
+    color: #FDFBED;
 }

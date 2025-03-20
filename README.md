@@ -208,6 +208,11 @@ This website was created using the Five Planes of Website Design:
                     <td>Resolved by setting DEBUG to True</td>
                     <td>Pass</td>
                 </tr>
+                <tr>
+                    <td>Django Admin Images Not Loading To Heroku</td>
+                    <td>Resolved by setting DEBUG to True</td>
+                    <td>Pass</td>
+                </tr>
             </table>
         </div>
     </div>
