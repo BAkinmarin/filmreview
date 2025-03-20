@@ -23,6 +23,7 @@
                             </a>
                             {% if post.image %}
                                 <img src="{{ post.image.url }}" alt="Image for {{ post.title }}" style="max-width: 100%;">
+                            {% endif %}
                             <p class="card-text">{{ post.excerpt }}</p>
 
                             <hr />
@@ -36,6 +37,7 @@
             <div class="row">
                 {% endif %}
                 {% endfor %}
+
 
             </div>
         </div>

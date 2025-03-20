@@ -237,6 +237,8 @@ This website was created using the Five Planes of Website Design:
 ### [Code](#code)
 - [Code Institute's Codestar Blog Walkthrough]() inspired the idea for this project and informed all steps in respect to setting and wiring up the database, coding with Django and Python, Bootstrap, setting up environment variables and serving static files.
 
+- [Ragas Imger's Stack Overflow Contribution](https://stackoverflow.com/questions/76558562/how-do-i-upload-a-picture-to-my-blog-using-the-django-administration) inspired the method used to render images directly through Django Administration.
+
 [Back to Top](#ux)
 
 ## Acknowledgements
