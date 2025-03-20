@@ -13,5 +13,4 @@ urlpatterns = [
     path("", include("review.urls"), name="review-urls"),
     re_path
     (r'^media/(?P<path>.*)$', serve, {'document_root': settings.MEDIA_ROOT}),
-    # path("", include("about.urls"), name="about-urls"),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
