@@ -70,7 +70,7 @@ This website was created using the Five Planes of Website Design:
     <td valign="top">
       <table>
         <tr>
-          <td><strong>Backend</strong></td>
+          <td><strong>Back End</strong></td>
           <td style="text-align:right;">Django 5.1.1 <code>Django==5.1.1</code></td>
         </tr>
         <tr>
@@ -83,7 +83,7 @@ This website was created using the Five Planes of Website Design:
         </tr>
         <tr>
           <td><strong>Authentication</strong></td>
-          <td style="text-align:right;">TBD <code>TBD</code></td>
+          <td style="text-align:right;">Django Allauth <code>TBD</code></td>
         </tr>
         <tr>
           <td><strong>Frontend</strong></td>

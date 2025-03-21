@@ -179,6 +179,18 @@ h2:hover {
     color:#FDFBED;
 }
 
+/* .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #FDFBED;
+} */
+
+.navbar-light .navbar-nav .nav-link:focus, .nav-link:hover {
+    color: #FDFBED;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #FDFBED;
+}
+
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
     color: #FDFBED;
 }
