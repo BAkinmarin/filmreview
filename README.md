@@ -199,6 +199,41 @@ This website was created using the Five Planes of Website Design:
                     <th>Pass/Fail</th>
                 </tr>
                 <tr>
+                    <td>Error loading Django template</td>
+                    <td>Resolved by moving index.html to correct directory and updating template_name</td>
+                    <td>Pass</td>
+                </tr>
+                <tr>
+                    <td>Error loading static CSS</td>
+                    <td>Resolved by setting DEBUG to True</td>
+                    <td>Pass</td>
+                </tr>
+                <!-- <tr>
+                    <td>Django administration images not loading to Heroku</td>
+                    <td>Resolved by setting DEBUG to True</td>
+                    <td>Pass</td>
+                </tr> -->
+                <!-- <tr>
+                    <td>Internal Links Not Opening In New Browser</td>
+                    <td>Resolved by setting DEBUG to True</td>
+                    <td>Pass</td>
+                </tr> -->
+            </table>
+        </div>
+    </div>
+</details>
+
+<!-- <details>
+    <summary>Testing Phase</summary>
+    <div style="display: flex; justify-content: center;">
+        <div style="overflow-x: auto; width: 80%;">
+            <table style="margin: 0 auto; border-collapse: collapse; width: 100%;">
+                <tr>
+                    <th>Bug</th>
+                    <th>Solution</th>
+                    <th>Pass/Fail</th>
+                </tr>
+                <tr>
                     <td>Error Loading Django Template</td>
                     <td>Resolved by moving index.html to correct directory and updating template_name</td>
                     <td>Pass</td>
@@ -216,7 +251,7 @@ This website was created using the Five Planes of Website Design:
             </table>
         </div>
     </div>
-</details>
+</details> -->
 
 [Back to Top](#ux)
 
