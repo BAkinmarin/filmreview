@@ -83,7 +83,7 @@ This website was created using the Five Planes of Website Design:
         </tr>
         <tr>
           <td><strong>Authentication</strong></td>
-          <td style="text-align:right;">Django Allauth <code>TBD</code></td>
+          <td style="text-align:right;">Django Allauth <code>django-allauth==65.5.0</code></td>
         </tr>
         <tr>
           <td><strong>Frontend</strong></td>
@@ -114,10 +114,11 @@ This website was created using the Five Planes of Website Design:
     <td valign="top" style="padding-left: 20px;">
       <h3>Other Dependencies</h3>
       <ul style="list-style-type: none; padding-left: 0;">
+        <li><code>sqlparse==0.5.3</code></li>
         <li><code>asgiref==3.8.1</code></li>
         <li><code>packaging==24.2</code></li>
         <li><code>setuptools==76.0.0</code></li>
-        <li><code>sqlparse==0.5.3</code></li>
+        <li><code>oauthlib==3.2.2</code></li>
         <li><code>typing_extensions==4.12.2</code></li>
         <li><code>tzdata==2025.1</code></li>
         <li><code>django-summernote==0.8.20.0</code></li>
