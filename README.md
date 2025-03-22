@@ -93,7 +93,7 @@ This website was created using the Five Planes of Website Design:
         </tr>
         <tr>
           <td><strong>Styling</strong></td>
-          <td style="text-align:right;">TBD <code>TBD</code></td>
+          <td style="text-align:right;">Crispy Forms + Bootstrap5 <code>crispy-bootstrap5==2024.10</code></td>
         </tr>
         <tr>
           <td><strong>Media Storage</strong></td>
@@ -211,11 +211,11 @@ This website was created using the Five Planes of Website Design:
                     <td>Resolved by setting DEBUG to True</td>
                     <td>Pass</td>
                 </tr>
-                <!-- <tr>
-                    <td>Django administration images not loading to Heroku</td>
-                    <td>Resolved by setting DEBUG to True</td>
+                <tr>
+                    <td>Blog Images not loading to Heroku</td>
+                    <td>Resolved by ...</td>
                     <td>Pass</td>
-                </tr> -->
+                </tr>
                 <!-- <tr>
                     <td>Internal Links Not Opening In New Browser</td>
                     <td>Resolved by setting DEBUG to True</td>
