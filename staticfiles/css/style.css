@@ -11,11 +11,15 @@ body {
     color: #FDFBED;
 }
 
-h2, h3 {
+h2 {
     font-family: "Federo", sans-serif;
     font-size: 2rem;
     font-weight: 700;
     color: #004643;
+}
+
+h3 {
+    font-family: "Federo", sans-serif;
 }
 
 .red-o {
@@ -203,8 +207,7 @@ h2:hover {
     }
 }
 
-btn-signup, .btn-edit,
-.btn-signup {
+.btn-signup, .btn-edit {
     background-color: #004643;
     color: #FDFBED;
 }
