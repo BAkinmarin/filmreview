@@ -12,14 +12,15 @@
                 <h1 class="post-title">{{ post.title }}</h1>
                 <p class="post-subtitle">{{ post.author }} | {{ post.created_on }}</p>
             </div>
-            <div class="d-none d-md-block col-md-6 masthead-image">
+            <!-- <div class="d-none d-md-block col-md-6 masthead-image">
+              <img src="{{ post.post_image.url }}" alt="Image for {{ post.title }}" class="img-fluid" style="width: 100%; height: auto;">
                 {% if post.image %}
                     <img src="{{ post.image.url }}" class="scale" alt="Image for {{ post.title }}">
                 {% endif %}
-            </div>
-            <!-- <div class="d-none d-md-block col-md-6 masthead-image">
-              <img src="{% static 'images/default.jpg' %}" class="scale" alt="placeholder">
             </div> -->
+            <div class="d-none d-md-block col-md-6 masthead-image">
+              <img src="{{ post.post_image.url }}" alt="Image for {{ post.title }}" class="img-fluid" style="width: 100%; height: auto;">
+            </div>
         </div>
     </div>
 </div>
