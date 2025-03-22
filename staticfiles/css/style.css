@@ -18,7 +18,7 @@ h2 {
     color: #004643;
 }
 
-h3 {
+.h3, h3 {
     font-family: "Federo", sans-serif;
 }
 
@@ -182,11 +182,6 @@ h2:hover {
     background-color: #004643;
     color:#FDFBED;
 }
-
-/* .navbar-light .navbar-nav, .nav-link.active,
- .navbar-light .navbar-nav .show>.nav-link {
-    color: #FDFBED;
-} */
 
 .navbar-light .navbar-nav .nav-link {
     color: #FDFBED;
