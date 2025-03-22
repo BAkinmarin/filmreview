@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-
+{% load static %}
 {% block content %}
 
 <!-- index.html content starts here -->
@@ -12,8 +12,10 @@
             <div class="row mb-4">
                 <!-- Image on the left -->
                 <div class="col-md-2">
-                    {% if post.image %}
-                    <img src="{{ post.image.url }}" alt="Image for {{ post.title }}" class="img-fluid" style="width: 100%; height: auto;">
+                    {% if "placeholder" in post.post_image.url %}
+                    <img src="{% static 'images/default.png' %}" alt="Image for {{ post.title }}" class="img-fluid" style="width: 100%; height: auto;">
+                    {% else %}
+                    <img src="{{ post.post_image.url }}" alt="Image for {{ post.title }}" class="img-fluid" style="width: 100%; height: auto;">
                     {% endif %}
                 </div>
                 <!-- Title, Description, and Date on the right -->

@@ -57,6 +57,9 @@ INSTALLED_APPS = [
     # Crispy Forms
     'crispy_forms',
     'crispy_bootstrap5',
+
+    # Media Management
+    'storages',
 ]
 
 # Constants

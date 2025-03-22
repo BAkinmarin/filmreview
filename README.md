@@ -97,7 +97,7 @@ This website was created using the Five Planes of Website Design:
         </tr>
         <tr>
           <td><strong>Media Storage</strong></td>
-          <td style="text-align:right;">TBD <code>TBD</code></td>
+          <td style="text-align:right;">Cloudinary <code>cloudinary==1.43.0</code></td>
         </tr>
         <tr>
           <td><strong>Static Files</strong></td>
@@ -109,7 +109,7 @@ This website was created using the Five Planes of Website Design:
         </tr>
         <tr>
           <td><strong>Image Handling</strong></td>
-          <td style="text-align:right;">TBD <code>TBD</code></td>
+          <td style="text-align:right;">Pillow <code>pillow==11.1.0</code></td>
         </tr>
       </table>
     </td>
@@ -277,6 +277,7 @@ This website was created using the Five Planes of Website Design:
 - [Maria Pavlenko's Blog](https://www.altexsoft.com/blog/user-stories/) inspired some of the language used in my User Stories write u and template.
 
 ### [Media](#media)
+- [Default Image - Conclave]()
 
 ### [Code](#code)
 - [Code Institute's Codestar Blog Walkthrough]() inspired the idea for this project and informed all steps in respect to setting and wiring up the database, coding with Django and Python, Bootstrap, setting up environment variables and serving static files.
