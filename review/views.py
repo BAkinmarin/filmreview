@@ -10,7 +10,7 @@ from .forms import CommentForm
 class PostList(generic.ListView):
     queryset = Post.objects.filter(status=1).order_by("-created_on")
     template_name = "review/index.html"
-    paginate_by = 6
+    # paginate_by = 4
 
 
 def post_detail(request, slug):
@@ -29,12 +29,15 @@ def post_detail(request, slug):
 
     queryset = Post.objects.filter(status=1)
     post = get_object_or_404(queryset, slug=slug)
+
+    # Render review template
     print('post:', post)
 
     comments = post.comments.all().order_by("-created_on")
     comment_count = post.comments.filter(approved=True).count()
 
     if request.method == "POST":
+        print("Received a POST request")
         comment_form = CommentForm(data=request.POST)
         if comment_form.is_valid():
             comment = comment_form.save(commit=False)
@@ -47,7 +50,10 @@ def post_detail(request, slug):
                 'Your comment will be visible once approved.'
             )
 
+    # Reset Comment Form
     comment_form = CommentForm()
+
+    print("About to render template")
 
     return render(
         request,

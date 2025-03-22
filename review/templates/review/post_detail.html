@@ -41,6 +41,7 @@
       <hr>
     </div>
   </div>
+
   <!-- Displaying Comments -->
   <div class="row">
     <div class="col-md-8 card mb-4  mt-3 ">
@@ -51,7 +52,7 @@
         {% for comment in comments %}
         <div class="p-2 comments
           {% if not comment.approved and comment.author == user %}
-          faded{% elif not comment.approved %} d-none{% endif %}">
+          faded{% elif not comment.approved %}d-none{% endif %}">
           <p class="font-weight-bold">
             {{ comment.author }}
             <span class="font-weight-normal">

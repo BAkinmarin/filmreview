@@ -84,8 +84,8 @@ h2 {
 }
 
 .masthead-text {
-    background-color: #445261;
-    color: white;
+    background-color: #004643;
+    color: #FDFBED;
     position: relative;
 }
 
@@ -101,7 +101,7 @@ h2 {
     right: 90%;
     height: 100%;
     width: 150%;
-    background: #445261;
+    background: #004643;
     -webkit-transform: skew(15deg);
     -moz-transform: skew(15deg);
     transform: skew(15deg);
@@ -110,7 +110,7 @@ h2 {
 
 .post-link {
     text-decoration: none;
-    color: #445261;
+    color: #004643;
 }
 
 .post-link:hover,
@@ -142,13 +142,12 @@ h2:hover {
 }
 
 .link {
-    color: #23BBBB;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .link:hover,
 .link:active {
-    color: #445261;
+    color: #004643;
     text-decoration: underline;
 }
 

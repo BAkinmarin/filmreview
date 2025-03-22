@@ -40,7 +40,9 @@ This website was created using the Five Planes of Website Design:
 
  As a user, I want to know what films are yet to be released and their release date.
 
- As a user, I want to modify or delete comments previously left on posts.-->
+ As a user, I want to modify or delete comments previously left on posts.
+ 
+ As a user, I want to add a rating to films.-->
 
  ### Super User
 
