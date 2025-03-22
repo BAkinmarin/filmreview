@@ -136,10 +136,11 @@ This website was created using the Five Planes of Website Design:
 <!--- [Github](https://github.com/): Used to host source code and version control.
 - [VSCode](https://code.visualstudio.com/): Used as Integrated Development Environment (IDE).
 - [Font Awesome](https://fontawesome.com/): Source of all the icons used in this project.
-- [Favicon io](https://favicon.io/favicon-converter/): Used to generate the favicon.
+- [Favicon](https://favicon.io/favicon-converter/): Used to generate the favicon.
+- [Coolors](https://coolors.co/): Used to generate color palette.
 - [TBD](): Used to create the wireframes.
 - [TBD](): Used to compress each image used in the project for optimal load times.
-- [AssignmentGPT AI](https://assignmentgpt.ai/): Used to create the Entity Relationship Diagram (ERD).
+- [AssignmentGPT](https://assignmentgpt.ai/): Used to create the Entity Relationship Diagram (ERD).
 - [TBD](): Used for animations on 404 page.-->
 
 <!--### Packages
