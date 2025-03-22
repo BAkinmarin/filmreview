@@ -143,7 +143,7 @@ This website was created using the Five Planes of Website Design:
 <!--### Packages
 - [Django](https://www.djangoproject.com/) was used as the framework for the blog.
 - [Allauth](https://django-allauth.readthedocs.io/) for the login authentication.
-- [Crispy Forms](https://django-crispy-forms.readthedocs.io/) for help styling the forms.
+- [Crispy Forms](https://django-crispy-forms.readthedocs.io/) for collecting and posting comments.
 - [Cloudinary](https://cloudinary.com/) for hosting the images.
 - [Gunicorn](https://gunicorn.org/) for handling the HTTP requests in production.
 - [Psycopg2](https://www.psycopg.org/) for aiding communication between Django and PostgresSQL
