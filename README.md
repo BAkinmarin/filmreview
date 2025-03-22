@@ -283,6 +283,8 @@ This website was created using the Five Planes of Website Design:
 
 - [Ragas Imger's Stack Overflow Contribution](https://stackoverflow.com/questions/76558562/how-do-i-upload-a-picture-to-my-blog-using-the-django-administration) inspired the method used to render images directly through Django Administration.
 
+- [Prajwal Hallale's Bootstrap Navbar Search](https://bootstrapexamples.com/@prajwal/navbar) inspired the design of the search bar.
+
 [Back to Top](#ux)
 
 ## Acknowledgements

@@ -87,7 +87,8 @@ def comment_edit(request, slug, comment_id):
             comment.save()
             messages.add_message(request, messages.SUCCESS, 'Comment Updated!')
         else:
-            messages.add_message(request, messages.ERROR, 'Error!')
+            messages.add_message(request, messages.ERROR,
+                                 'Error, please try again!')
 
     return HttpResponseRedirect(reverse('post_detail', args=[slug]))
 
@@ -103,7 +104,8 @@ def comment_delete(request, slug, comment_id):
 
     if comment.author == request.user:
         comment.delete()
-        messages.add_message(request, messages.SUCCESS, 'Comment deleted!')
+        messages.add_message(request, messages.SUCCESS,
+                             'Comment, Bye-Bye!')
     else:
         messages.add_message(request, messages.ERROR,
                              'You can only delete your own comments!')

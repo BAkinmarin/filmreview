@@ -63,9 +63,13 @@
                     </li>
                     {% endif %}
                 </ul>
-                <span class="navbar-text text-muted">
+                <form class="d-flex" method="GET" action="/search/">
+                    <input class="form-control me-2" type="search" name="q" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+                <!-- <span class="navbar-text text-muted">
                     thoughts of a film lover
-                </span>
+                </span> -->
             </div>
         </div>
     </nav>
