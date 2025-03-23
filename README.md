@@ -30,27 +30,21 @@ This website was created using the Five Planes of Website Design:
 - [Strategy](#strategy)
 ### User
 
- <!--As a user, I want to be presented with a paginated list of posts, so that I can select which post I want to view in more detail.-->
+As a user, I want to modify or delete comments previously left on posts.
 
- <!--As a user, I want to read film reviews so I know what to expect before committing to watching a film.
+As a user, I want to know what films are yet to be released and their release date.
 
- As a user, I want to search film reviews by genre so I do not have to scroll through unneccessary content.
+As a user, I want to interact with both film reviews from the author and comments from other visitors.
 
- As a user, I want to interact with both film reviews from the author and comments from other visitors.
+As a user, I want to be presented with a punchy but well presented list of films, so that I can choose the reviews I want to read in more detail.
 
- As a user, I want to know what films are yet to be released and their release date.
-
- As a user, I want to modify or delete comments previously left on posts.
+### Site Admin
  
- As a user, I want to add a rating to films.-->
+As a site admin, I want to be able to create a draft, then finish and post at a later stage.
 
- ### Super User
+As a super user, I want to be able to create film review posts using a user-friendly interface.
 
- <!--As a super user, I want to be able to add posts on a user-friendly interface.
-
- As a super user, I want to be able to monitor comments with full CRUD functionality.
- 
- As a super user, I want to be able to -->
+As a super user, I want to be able to monitor user comments with full Create, Read, Update, and Delete (CRUD) functionality.
 
 - [Scope](scope)
 - [Structure](structure)
