@@ -78,10 +78,6 @@ This website was created using the Five Planes of Website Design:
           <td style="text-align:right;">Django 5.1.1 <code>Django==5.1.1</code></td>
         </tr>
         <tr>
-          <td><strong>API</strong></td>
-          <td style="text-align:right;">TBD <code>TBD</code></td>
-        </tr>
-        <tr>
           <td><strong>Database</strong></td>
           <td style="text-align:right;">PostgreSQL <code>psycopg2==2.9.10</code></td>
         </tr>
@@ -95,7 +91,7 @@ This website was created using the Five Planes of Website Design:
         </tr>
         <tr>
           <td><strong>Styling</strong></td>
-          <td style="text-align:right;">Crispy Forms + Bootstrap5 <code>crispy-bootstrap5==2024.10</code></td>
+          <td style="text-align:right;">Crispy Forms | Bootstrap5 <code>crispy-bootstrap5==2024.10</code></td>
         </tr>
         <tr>
           <td><strong>Media Storage</strong></td>
@@ -135,24 +131,23 @@ This website was created using the Five Planes of Website Design:
 
 ### Tools
 
-<!--- [Github](https://github.com/): Used to host source code and version control.
+- [Github](https://github.com/): Used to host source code and version control.
 - [VSCode](https://code.visualstudio.com/): Used as Integrated Development Environment (IDE).
 - [Font Awesome](https://fontawesome.com/): Source of all the icons used in this project.
-- [Favicon](https://favicon.io/favicon-converter/): Used to generate the favicon.
+<!--- [Favicon](https://favicon.io/): Used to generate the favicon.-->
 - [Coolors](https://coolors.co/): Used to generate color palette.
-- [TBD](): Used to create the wireframes.
+<!--- [TBD](): Used to create the wireframes.-->
 - [Convertio](https://convertio.co/): Used to compress each image used in the project for optimal load times.
 - [AssignmentGPT](https://assignmentgpt.ai/): Used to create the Entity Relationship Diagram (ERD).
-- [TBD](): Used for animations on 404 page.-->
 
-<!--### Packages
+## Packages
 - [Django](https://www.djangoproject.com/) was used as the framework for the blog.
 - [Allauth](https://django-allauth.readthedocs.io/) for the login authentication.
 - [Crispy Forms](https://django-crispy-forms.readthedocs.io/) for collecting and posting comments.
 - [Cloudinary](https://cloudinary.com/) for hosting the images.
 - [Gunicorn](https://gunicorn.org/) for handling the HTTP requests in production.
 - [Psycopg2](https://www.psycopg.org/) for aiding communication between Django and PostgresSQL
-- [Formtools](https://django-formtools.readthedocs.io/) for additional form utilities.-->
+- [Formtools](https://django-formtools.readthedocs.io/) for additional form utilities
 
 [Back to Top](#ux)
 
@@ -268,7 +263,7 @@ This website was created using the Five Planes of Website Design:
 ## Credits
 
 ### [Content](#content)
-- [Spence's README](https://github.com/5pence/djangohelp/blob/main/readme.MD) was useful for setting up Django on my Windows machine.
+- [Spencer's README](https://github.com/5pence/djangohelp/blob/main/readme.MD) was useful for setting up Django on my Windows machine.
 
 - [Dimitris' README](https://github.com/Dimitris112/rum-away-testp4/blob/main/README.md) inspired the use of toggle view for tables.
 
@@ -294,12 +289,21 @@ This website was created using the Five Planes of Website Design:
 - [One Of Them Days Photo](https://m.media-amazon.com/images/M/MV5BYjdhZDVkZDYtNDdlMC00MzcyLTgyYzgtNWUzODk4YTE2YWQ4XkEyXkFqcGc@._V1_.jpg) used as blog photo for One Of Them Days film review.
 
 ### [Code](#code)
-- [Code Institute's Codestar Blog Walkthrough]() inspired the idea for this project and informed all steps in respect to setting and wiring up the database, coding with Django and Python, Bootstrap, setting up environment variables and serving static files.
+- [Code Institute's Codestar Blog Walkthrough](https://github.com/Code-Institute-Solutions/blog) Project created in line with course content and within portfolio project 4 scope.
 
 - [Ragas Imger's Stack Overflow Contribution](https://stackoverflow.com/questions/76558562/how-do-i-upload-a-picture-to-my-blog-using-the-django-administration) inspired the method used to render images directly through Django Administration.
 
 [Back to Top](#ux)
 
 ## Acknowledgements
+
+### Family
+Thankful to God for my sister, Boluwatife Akinmarin and friend, Rebecca Wilson-Kane - who both contributed immensely towards the write up of reviews used in this project, as well as supporting with user testing and feedback on flow and experience.
+
+### Spencer Barriball
+My mentor who provided me with loads of tips and tricks to speed up the development of this project.
+
+### Code Institute's Codestar Walkthrough Project
+Special thanks to Code Institute's Matt and Neil who both delivered the learning material applied in the development of this project.
 
 [Back to Top](#ux)
