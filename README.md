@@ -128,9 +128,7 @@ As a super user, I want to be able to monitor user comments with full Create, Re
 - [Github](https://github.com/): Used to host source code and version control.
 - [VSCode](https://code.visualstudio.com/): Used as Integrated Development Environment (IDE).
 - [Font Awesome](https://fontawesome.com/): Source of all the icons used in this project.
-<!--- [Favicon](https://favicon.io/): Used to generate the favicon.-->
 - [Coolors](https://coolors.co/): Used to generate color palette.
-<!--- [TBD](): Used to create the wireframes.-->
 - [Convertio](https://convertio.co/): Used to compress each image used in the project for optimal load times.
 - [AssignmentGPT](https://assignmentgpt.ai/): Used to create the Entity Relationship Diagram (ERD).
 
@@ -147,11 +145,111 @@ As a super user, I want to be able to monitor user comments with full Create, Re
 
 ## Testing
 
+### User Testing
+
+<details>
+    <summary>User Navigation</summary>
+    <div style="display: flex; justify-content: center;">
+        <div style="overflow-x: auto; width: 80%;">
+            <table style="margin: 0 auto; border-collapse: collapse; width: 100%;">
+                <tr>
+                    <th>Test</th>
+                    <th>Expectation</th>
+                    <th>Outcome</th>
+                </tr>
+                <tr>
+                    <td>Navigation links lead to their intended pages</td>
+                    <td>User is made aware via navigation links where they are on the Blog</td>
+                    <th>Pass</th>
+                </tr>
+                <tr>
+                    <td>User can look view content without signing in</td>
+                    <td>Pass</td>
+                    <th>Pass</th>
+                </tr>
+                <tr>
+                    <td>User can navigate to home page at any time by clicking Logo or Home </td>
+                    <td>Pass</td>
+                    <th>Pass</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+</details>
+
+<details>
+    <summary>User Registration</summary>
+    <div style="display: flex; justify-content: center;">
+        <div style="overflow-x: auto; width: 80%;">
+            <table style="margin: 0 auto; border-collapse: collapse; width: 100%;">
+                <tr>
+                    <th>Test</th>
+                    <th>Expectation</th>
+                    <th>Outcome</th>
+                </tr>
+                <tr>
+                    <td>User can create an account on the blogsite</td>
+                    <td>Pass</td>
+                    <th>Pass</th>
+                </tr>
+                <tr>
+                    <td>User can login to existing account</td>
+                    <td>Pass</td>
+                    <th>Pass</th>
+                </tr>
+                <tr>
+                    <td>User is informed once account has successfully been created</td>
+                    <td>Pass</td>
+                    <th>Pass</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+</details>
+
+<details>
+    <summary>User Experience</summary>
+    <div style="display: flex; justify-content: center;">
+        <div style="overflow-x: auto; width: 80%;">
+            <table style="margin: 0 auto; border-collapse: collapse; width: 100%;">
+                <tr>
+                    <th>Test</th>
+                    <th>Expectation</th>
+                    <th>Outcome</th>
+                </tr>
+                <tr>
+                    <td>User can click a post to view full content</td>
+                    <td>Pass</td>
+                    <td>Pass</td>
+                </tr>
+                <tr>
+                    <td>User can comment on post</td>
+                    <td>Pass</td>
+                    <td>Pass</td>
+                </tr>
+                <tr>
+                    <td>User can edit previous post</td>
+                    <td>Pass</td>
+                    <td>Pass</td>
+                </tr>
+                <tr>
+                    <td>User can delete previous post</td>
+                    <td>Pass</td>
+                    <td>Pass</td>
+                </tr>
+                <tr>
+                    <td>User receives message to confirm status of all activities on site</td>
+                    <td>Pass</td>
+                    <td>Pass</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</details>
+
 [Back to Top](#ux)
 
 ## Bugs
-
-### Fixed Bugs
 
 <details>
     <summary>Development Phase</summary>
@@ -160,23 +258,23 @@ As a super user, I want to be able to monitor user comments with full Create, Re
             <table style="margin: 0 auto; border-collapse: collapse; width: 100%;">
                 <tr>
                     <th>Bug</th>
-                    <th>Solution</th>
-                    <th>Pass/Fail</th>
+                    <th>Action</th>
+                    <th>Outcome</th>
                 </tr>
                 <tr>
                     <td>Application Error in Heroku [H10]</td>
-                    <td>Resolved by amending the project name in the Procfile</td>
-                    <td>Pass</td>
+                    <td>Amended project name in the Procfile</td>
+                    <td>Fixed</td>
                 </tr>
                 <tr>
                     <td>Virtual Environment Pushed to GitHub</td>
-                    <td>Resolved using git rm command in terminal</td>
-                    <td>Pass</td>
+                    <td>Deleted using git rm command in terminal</td>
+                    <td>Fixed</td>
                 </tr>
                 <tr>
                     <td>Summernote 404 Error</td>
-                    <td>Resolved by setting DEBUG to True</td>
-                    <td>Pass</td>
+                    <td>Set DEBUG to True</td>
+                    <td>Fixed</td>
                 </tr>
             </table>
         </div>
@@ -190,63 +288,28 @@ As a super user, I want to be able to monitor user comments with full Create, Re
             <table style="margin: 0 auto; border-collapse: collapse; width: 100%;">
                 <tr>
                     <th>Bug</th>
-                    <th>Solution</th>
-                    <th>Pass/Fail</th>
+                    <th>Action</th>
+                    <th>Outcome</th>
                 </tr>
                 <tr>
                     <td>Error loading Django template</td>
-                    <td>Resolved by moving index.html to correct directory and updating template_name</td>
-                    <td>Pass</td>
+                    <td>Moved index.html to the correct directory and updated template_name</td>
+                    <td>Fixed</td>
                 </tr>
                 <tr>
                     <td>Error loading static CSS</td>
-                    <td>Resolved by setting DEBUG to True</td>
-                    <td>Pass</td>
+                    <td>Set DEBUG to True</td>
+                    <td>Fixed</td>
                 </tr>
                 <tr>
                     <td>Blog Images not loading to Heroku</td>
-                    <td>Resolved by ...</td>
-                    <td>Pass</td>
+                    <td>Used Cloudinary to host media files</td>
+                    <td>Fixed</td>
                 </tr>
-                <!-- <tr>
-                    <td>Internal Links Not Opening In New Browser</td>
-                    <td>Resolved by setting DEBUG to True</td>
-                    <td>Pass</td>
-                </tr> -->
             </table>
         </div>
     </div>
 </details>
-
-<!-- <details>
-    <summary>Testing Phase</summary>
-    <div style="display: flex; justify-content: center;">
-        <div style="overflow-x: auto; width: 80%;">
-            <table style="margin: 0 auto; border-collapse: collapse; width: 100%;">
-                <tr>
-                    <th>Bug</th>
-                    <th>Solution</th>
-                    <th>Pass/Fail</th>
-                </tr>
-                <tr>
-                    <td>Error Loading Django Template</td>
-                    <td>Resolved by moving index.html to correct directory and updating template_name</td>
-                    <td>Pass</td>
-                </tr>
-                <tr>
-                    <td>Error Loading Static CSS</td>
-                    <td>Resolved by setting DEBUG to True</td>
-                    <td>Pass</td>
-                </tr>
-                <tr>
-                    <td>Django Admin Images Not Loading To Heroku</td>
-                    <td>Resolved by setting DEBUG to True</td>
-                    <td>Pass</td>
-                </tr>
-            </table>
-        </div>
-    </div>
-</details> -->
 
 [Back to Top](#ux)
 
