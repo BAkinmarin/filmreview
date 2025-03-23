@@ -46,9 +46,11 @@ This website was created using the Five Planes of Website Design:
 
  ### Super User
 
- <!--As a super user, I want to be able to add posts on a user-friendly inteface.
+ <!--As a super user, I want to be able to add posts on a user-friendly interface.
 
- As a super user, I want to be able to monitor comments with full CRUD functionality.-->
+ As a super user, I want to be able to monitor comments with full CRUD functionality.
+ 
+ As a super user, I want to be able to -->
 
 - [Scope](scope)
 - [Structure](structure)
@@ -139,7 +141,7 @@ This website was created using the Five Planes of Website Design:
 - [Favicon](https://favicon.io/favicon-converter/): Used to generate the favicon.
 - [Coolors](https://coolors.co/): Used to generate color palette.
 - [TBD](): Used to create the wireframes.
-- [TBD](): Used to compress each image used in the project for optimal load times.
+- [Convertio](https://convertio.co/): Used to compress each image used in the project for optimal load times.
 - [AssignmentGPT](https://assignmentgpt.ai/): Used to create the Entity Relationship Diagram (ERD).
 - [TBD](): Used for animations on 404 page.-->
 
@@ -277,7 +279,19 @@ This website was created using the Five Planes of Website Design:
 - [Maria Pavlenko's Blog](https://www.altexsoft.com/blog/user-stories/) inspired some of the language used in my User Stories write u and template.
 
 ### [Media](#media)
-- [Default Image - Conclave]()
+- [Vintage Film Claper with Reel and Camera](https://depositphotos.com/photos/film.html?qview=210519084) used as default photo for posts.
+
+- [Time Cut Photo](https://en.wikipedia.org/wiki/Time_Cut#/media/File:Time_Cut_film_poster.jpg) used as blog photo for Time Cut film review.
+
+- [Uglies Photo](https://en.wikipedia.org/wiki/Uglies_(film)#/media/File:Uglies_film_poster.jpg) used as blog photo for Uglies film review.
+
+- [Black Panther: Wakanda Forever Photo](https://musicart.xboxlive.com/7/687d6400-0000-0000-0000-000000000002/504/image.jpg) used as blog photo for Black Panther: Wakanda Forever film review.
+
+- [Don't Worry Darling Photo](https://m.imdb.com/title/tt10731256/mediaviewer/rm973867777/) used as blog photo for Don't Worry Darling film review.
+
+- [Mufasa: The Lion King Photo](https://m.media-amazon.com/images/M/MV5BYjBkOWUwODYtYWI3YS00N2I0LWEyYTktOTJjM2YzOTc3ZDNlXkEyXkFqcGc@._V1_UY1200_CR90,0,630,1200_AL_.jpg) used as blog photo for Mufasa: The Lion King film review.
+
+- [One Of Them Days Photo](https://m.media-amazon.com/images/M/MV5BYjdhZDVkZDYtNDdlMC00MzcyLTgyYzgtNWUzODk4YTE2YWQ4XkEyXkFqcGc@._V1_.jpg) used as blog photo for One Of Them Days film review.
 
 ### [Code](#code)
 - [Code Institute's Codestar Blog Walkthrough]() inspired the idea for this project and informed all steps in respect to setting and wiring up the database, coding with Django and Python, Bootstrap, setting up environment variables and serving static files.
@@ -285,6 +299,8 @@ This website was created using the Five Planes of Website Design:
 - [Ragas Imger's Stack Overflow Contribution](https://stackoverflow.com/questions/76558562/how-do-i-upload-a-picture-to-my-blog-using-the-django-administration) inspired the method used to render images directly through Django Administration.
 
 - [Prajwal Hallale's Bootstrap Navbar Search](https://bootstrapexamples.com/@prajwal/navbar) inspired the design of the search bar.
+
+- [KenBroTech YouTube Tutorial On Search Functionality](https://www.youtube.com/watch?v=iFlSrEuyl8I) really good tutorial on applying search functionality on Django database.
 
 [Back to Top](#ux)
 
