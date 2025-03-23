@@ -18,10 +18,6 @@ h2 {
     color: #004643;
 }
 
-.h3, h3 {
-    font-family: "Federo", sans-serif;
-}
-
 .red-o {
     color: #D1AC00;
 }
@@ -110,7 +106,7 @@ h2 {
 
 .post-link {
     text-decoration: none;
-    color: #004643;
+    color: #445261;
 }
 
 .post-link:hover,
@@ -142,12 +138,13 @@ h2:hover {
 }
 
 .link {
-    text-decoration: underline;
+    color: #23BBBB;
+    text-decoration: none;
 }
 
 .link:hover,
 .link:active {
-    color: #004643;
+    color: #445261;
     text-decoration: underline;
 }
 
@@ -182,7 +179,19 @@ h2:hover {
     color:#FDFBED;
 }
 
+/* .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #FDFBED;
+} */
+
+.navbar-light .navbar-nav .nav-link:focus, .nav-link:hover {
+    color: #FDFBED;
+}
+
 .navbar-light .navbar-nav .nav-link {
+    color: #FDFBED;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
     color: #FDFBED;
 }
 
@@ -191,17 +200,5 @@ h2:hover {
 }
 
 .text-white {
-    color: #FDFBED;
-}
-
-@media (min-width: 1200px) {
-    .h3, h3 {
-        font-size: 1.75rem;
-        font-family: "Federo", sans-serif;
-    }
-}
-
-.btn-signup, .btn-edit {
-    background-color: #004643;
     color: #FDFBED;
 }
