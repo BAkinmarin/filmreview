@@ -5,13 +5,13 @@ from django.http import HttpResponseRedirect
 from .models import Post, Comment
 from .forms import CommentForm
 
-# Create your views here.
+# Create your views here
 
 
 class PostList(generic.ListView):
     queryset = Post.objects.filter(status=1).order_by("-created_on")
     template_name = "review/index.html"
-    # paginate_by = 4
+    paginate_by = 6
 
 
 def post_detail(request, slug):

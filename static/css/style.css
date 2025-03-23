@@ -18,6 +18,10 @@ h2 {
     color: #004643;
 }
 
+h3 {
+    font-family: "Federo", sans-serif;
+}
+
 .red-o {
     color: #D1AC00;
 }
@@ -125,27 +129,34 @@ h2:hover {
     color: lightgray;
 }
 
-.btn-signup,
-.btn-edit {
-    background-color: #188181;
-    color: #fff;
+.btn-signup, .btn-edit {
+    background-color: #004643;
+    color: #FDFBED;
+    font-family: "Federo", sans-serif;
 }
 
 .btn-signup:hover,
 .btn-signup:active {
-    background-color: #fff;
-    color: #23BBBB;
+    background-color: #FDFBED;
+    color: #004643;
 }
 
 .link {
-    color: #23BBBB;
+    color: #004643;
     text-decoration: none;
+    font-weight: 500;
 }
 
 .link:hover,
 .link:active {
     color: #445261;
     text-decoration: underline;
+}
+
+a {
+    color: #004643;
+    text-decoration: none;
+    font-weight: 500;
 }
 
 .btn-like {
@@ -178,10 +189,6 @@ h2:hover {
     background-color: #004643;
     color:#FDFBED;
 }
-
-/* .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
-    color: #FDFBED;
-} */
 
 .navbar-light .navbar-nav .nav-link:focus, .nav-link:hover {
     color: #FDFBED;
