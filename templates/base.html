@@ -60,9 +60,20 @@
                     </li>
                     {% endif %}
                 </ul>
-                <span class="navbar-text text-muted">
-                    thoughts from a film buff
-                </span>
+                <form method="GET" action="{% url 'review' %}">
+                    {% csrf_token %}
+                    <div class="input-group w-100">
+                        <input class="form-control border border-black rounded-0" type="text" name="q"
+                            placeholder="Search">
+                        <div class="input-group-append">
+                            <button class="form-control btn btn-black border border-black rounded-0 text-white" type="submit">
+                                <span>
+                                    <i class="fas fa-search"></i>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </nav>
