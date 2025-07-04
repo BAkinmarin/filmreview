@@ -67,6 +67,21 @@ def post_detail(request, slug):
     )
 
 
+def search_review(request):
+    if 'q' in request.GET:
+        q = request.GET['q']
+        multiple_q = Q(Q(title__icontains=q) | Q(slug__icontains=q))
+        post = Post.objects.filter(multiple_q)
+    else:
+        post = Post.objects.all()
+
+    context = {
+        'post': post
+    }
+
+    return render(request, 'review/index.html', context)
+
+
 def comment_edit(request, slug, comment_id):
     """
     View to edit comments

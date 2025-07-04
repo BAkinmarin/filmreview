@@ -60,13 +60,12 @@
                     </li>
                     {% endif %}
                 </ul>
-                <form method="GET" action="{% url 'review' %}">
-                    {% csrf_token %}
+                <form>
                     <div class="input-group w-100">
-                        <input class="form-control border border-black rounded-0" type="text" name="q"
-                            placeholder="Search">
+                        <input class="form-control border border-black rounded-0" type="search" name="q"
+                            placeholder="Search" aria-label="Search">
                         <div class="input-group-append">
-                            <button class="form-control btn btn-black border border-black rounded-0 text-white" type="submit">
+                            <button class="form-control btn btn-black border border-black rounded-0 text-white btn-outline-success" type="submit">
                                 <span>
                                     <i class="fas fa-search"></i>
                                 </span>
