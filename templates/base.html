@@ -60,9 +60,9 @@
                     </li>
                     {% endif %}
                 </ul>
-                <form>
+                <form method="GET" action="{% url 'search_results' %}">
                     <div class="input-group w-100">
-                        <input class="form-control border border-black rounded-0" type="search" name="q"
+                        <input class="form-control border border-black rounded-0" type="text" name="q"
                             placeholder="Search" aria-label="Search">
                         <div class="input-group-append">
                             <button class="form-control btn btn-black border border-black rounded-0 text-white btn-outline-success" type="submit">

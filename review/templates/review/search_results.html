@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+  <h2>Search Results for "{{ q }}"</h2>
+  {% if results %}
+    <ul>
+      {% for post in results %}
+        <li><a href="{% url 'post_detail' post.slug %}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p>No matches found.</p>
+  {% endif %}
+{% endblock %}

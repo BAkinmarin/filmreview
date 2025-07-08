@@ -67,19 +67,20 @@ def post_detail(request, slug):
     )
 
 
-def search_review(request):
+def search_results(request):
     if 'q' in request.GET:
         q = request.GET['q']
         multiple_q = Q(Q(title__icontains=q) | Q(slug__icontains=q))
-        post = Post.objects.filter(multiple_q)
+        results = Post.objects.filter(multiple_q)
     else:
-        post = Post.objects.all()
+        results = Post.objects.all()
 
     context = {
-        'post': post
+        'results': results,
+        'q': q
     }
 
-    return render(request, 'review/index.html', context)
+    return render(request, 'review/search_results.html', context)
 
 
 def comment_edit(request, slug, comment_id):
