@@ -7,7 +7,6 @@ This blog was created using Django and has full CRUD functionality with an intui
 <!--![Am I Responsive Screenshot]()-->
 
 - [Live Site](https://my-film-blog-pp4-d9dc642517af.herokuapp.com/)
-- [GitHub Repository](https://github.com/BAkinmarin/filmreview)
 
 ## Table of Contents
 
@@ -274,6 +273,11 @@ As a super user, I want to be able to monitor user comments with full Create, Re
                 <tr>
                     <td>Summernote 404 Error</td>
                     <td>Set DEBUG to True</td>
+                    <td>Fixed</td>
+                </tr>
+                <tr>
+                    <td>Search shows all reviews when no search criteria entered</td>
+                    <td>Updated html and logic to include error message</td>
                     <td>Fixed</td>
                 </tr>
             </table>

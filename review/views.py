@@ -67,17 +67,37 @@ def post_detail(request, slug):
     )
 
 
+# def search_results(request):
+#     if 'q' in request.GET:
+#         q = request.GET['q']
+#         multiple_q = Q(Q(title__icontains=q) | Q(slug__icontains=q))
+#         results = Post.objects.filter(multiple_q)
+#     else:
+#         messages.error(request, "Please enter a search criteria!")
+#         return redirect(reverse('review'))
+
+#     context = {
+#         'results': results,
+#         'q': q
+#     }
+
+#     return render(request, 'review/search_results.html', context)
+
+
 def search_results(request):
-    if 'q' in request.GET:
-        q = request.GET['q']
-        multiple_q = Q(Q(title__icontains=q) | Q(slug__icontains=q))
-        results = Post.objects.filter(multiple_q)
+    q = request.GET.get('q')
+    error_message = None
+    results = []
+
+    if q:
+        results = Post.objects.filter(title__icontains=q)
     else:
-        results = Post.objects.all()
+        error_message = "Please enter a search criteria!"
 
     context = {
         'results': results,
-        'q': q
+        'q': q,
+        'error_message': error_message
     }
 
     return render(request, 'review/search_results.html', context)

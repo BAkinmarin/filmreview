@@ -3,6 +3,9 @@
 {% load crispy_forms_tags %}
 
 {% block content %}
+{% if error_message %}
+  <p class="error">{{ error_message }}</p>
+{% else %}
   <h2>Search Results for "{{ q }}"</h2>
   {% if results %}
     <ul>
@@ -13,4 +16,5 @@
   {% else %}
     <p>No matches found.</p>
   {% endif %}
+{% endif %}
 {% endblock %}
