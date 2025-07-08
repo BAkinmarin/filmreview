@@ -24,9 +24,18 @@ This blog was created using Django and has full CRUD functionality with an intui
 
 ## UX
 
-This website was created using the Five Planes of Website Design:
+## Project Planning
 
-- [Strategy](#strategy)
+This project was born from a deep interest in storytelling and cinematic creativity, with a particular focus on plot development. It evolved into a Django-powered film review blog designed to deliver a clean, responsive user experience while showcasing best practices in web development. From dynamic content rendering to modular templating with Python and HTML, the platform reflects my ability to build scalable, maintainable applications that balance creative expression with technical precision.
+
+This blog was created following the Five Planes of Website Design, ensuring a thoughtful balance between strategy, scope, structure, skeleton, and surface. The project was driven by four key ojectives:
+
+- Deliver a clean, responsive interface for browsing and reviewing films.
+- Establish a scalable architecture supporting full CRUD operations.
+- Integrate intuitive search functionality to streamline content discovery.
+- Build a reusable base layout with modular templates for easy extension and maintainability.
+
+## [Strategy](#strategy)
 ### User
 
 As a user, I want to modify or delete comments previously left on posts.
@@ -37,6 +46,8 @@ As a user, I want to interact with both film reviews from the author and comment
 
 As a user, I want to be presented with a punchy but well presented list of films, so that I can choose the reviews I want to read in more detail.
 
+As a user, I want to be able to search for a specific film review and view comments from other visitors.
+
 ### Site Admin
  
 As a site admin, I want to be able to create a draft, then finish and post at a later stage.
@@ -45,10 +56,10 @@ As a super user, I want to be able to create film review posts using a user-frie
 
 As a super user, I want to be able to monitor user comments with full Create, Read, Update, and Delete (CRUD) functionality.
 
-- [Scope](scope)
-- [Structure](structure)
-- [Skeleton](skeleton)
-- [Surface](surface)
+## [Scope](scope)
+## [Structure](structure)
+## [Skeleton](skeleton)
+## [Surface](surface)
 
 [Back to Top](#ux)
 
@@ -126,6 +137,7 @@ As a super user, I want to be able to monitor user comments with full Create, Re
 
 - [Github](https://github.com/): Used to host source code and version control.
 - [VSCode](https://code.visualstudio.com/): Used as Integrated Development Environment (IDE).
+- [Heroku](https://www.heroku.com/): Used for deploying the project.
 - [Font Awesome](https://fontawesome.com/): Source of all the icons used in this project.
 - [Coolors](https://coolors.co/): Used to generate color palette.
 - [Convertio](https://convertio.co/): Used to compress each image used in the project for optimal load times.
