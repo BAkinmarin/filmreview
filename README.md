@@ -57,7 +57,21 @@ As a super user, I want to be able to create film review posts using a user-frie
 As a super user, I want to be able to monitor user comments with full Create, Read, Update, and Delete (CRUD) functionality.
 
 ## [Scope](scope)
+The blog should have a navigation menu that is consistent across all pages and devices.
+
 ## [Structure](structure)
+This Django project consists of:
+
+**Apps** - <code>review</code> and <code>about</code>
+
+**Templates** - <code>base.html</code> <code>index.html</code> <code>post_detail.html</code> <code>search_results.html</code>
+
+**Models** - Basic <code>Post</code> model for storing film reviews with fields like <code>title</code> <code>slug</code> <code>body</code> <code>created</code>
+
+**URLs** - Routed with <code>urls.py</code> using meaningful patterns like <code>post/<'slug:slug'>/</code> and <code>search/</code>
+
+**Views** - Handles detail pages with <code>views.py</code> and search queries with dynamic responses
+
 ## [Skeleton](skeleton)
 ## [Surface](surface)
 
@@ -142,6 +156,10 @@ As a super user, I want to be able to monitor user comments with full Create, Re
 - [Coolors](https://coolors.co/): Used to generate color palette.
 - [Convertio](https://convertio.co/): Used to compress each image used in the project for optimal load times.
 - [AssignmentGPT](https://assignmentgpt.ai/): Used to create the Entity Relationship Diagram (ERD).
+- [Google Font](https://fonts.google.com/): Used for the typography used in the project.
+- [Bootstrap4](https://getbootstrap.com/): Used for base styling of the blog.
+- [Cloudinary](https://cloudinary.com/): Used for storing static files.
+- [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/): Used to debug project.
 
 ## Packages
 - [Django](https://www.djangoproject.com/) was used as the framework for the blog.
@@ -149,8 +167,9 @@ As a super user, I want to be able to monitor user comments with full Create, Re
 - [Crispy Forms](https://django-crispy-forms.readthedocs.io/) for collecting and posting comments.
 - [Cloudinary](https://cloudinary.com/) for hosting the images.
 - [Gunicorn](https://gunicorn.org/) for handling the HTTP requests in production.
-- [Psycopg2](https://www.psycopg.org/) for aiding communication between Django and PostgresSQL
-- [Formtools](https://django-formtools.readthedocs.io/) for additional form utilities
+- [Psycopg2](https://www.psycopg.org/) for aiding communication between Django and PostgresSQL.
+- [Formtools](https://django-formtools.readthedocs.io/) for additional form utilities.
+- [Whitenoise](https://whitenoise.readthedocs.io/en/stable/) for deploying static files to Heroku.
 
 [Back to Top](#ux)
 
