@@ -219,14 +219,14 @@ a {
 
 .text-login {
     color: #004643;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 1.25rem;
     font-style: oblique;
 }
 
 .text-logout {
     color: red;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 1.25rem;
     font-style: oblique;
 }

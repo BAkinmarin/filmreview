@@ -1,4 +1,4 @@
-# My Film Review Blog
+# Film Review Blog
 
 My Film Review is a blog bringing you fresh and original views of different genres of films. This web application allows users to register an account, login, and comment on reviews.
 
