@@ -311,6 +311,17 @@ This Django project consists of:
 [Back to Top](#ux)
 
 ### Google Lighthouse
+#### Landing Page
+![Landing Page Result](images/filmreview-lighthouse-index.png)
+
+#### Sign Up Page
+![Sign Up Page Result](images/filmreview-lighthouse-signup.png)
+
+#### Login Page
+![Login Page Result](images/filmreview-lighthouse-login.png)
+
+#### About Page
+![About Page Result]()
 
 [Back to Top](#ux)
 
