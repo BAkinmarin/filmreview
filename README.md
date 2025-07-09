@@ -299,13 +299,13 @@ This Django project consists of:
 ### Code Validation
 
 #### CSS
-![CSS Validation Result](media\readme\filmreview-cssvalidation.png)
+![CSS Validation Result](media/filmreview-cssvalidation.png)
 
 #### HTML
-![HTML Validation Result](media\readme\filmreview-htmlvalidation.png)
+![HTML Validation Result](media/filmreview-htmlvalidation.png)
 
 #### Python
-![Python Validation Result](media\readme\filmreview-pythonvalidation.png)
+![Python Validation Result](media/filmreview-pythonvalidation.png)
 
 [Back to Top](#ux)
 
@@ -400,10 +400,10 @@ This Django project consists of:
 [Back to Top](#ux)
 
 ### <code>settings.py</code>
-![settings.py](media\readme\settings.py_message.png)
+![settings.py](media/settings.py_message.png)
 
 ### <code>env.py</code>
-![alt text](media\readme\env.py_message.png)
+![alt text](media/env.py_message.png)
 
 ### Heroku
 1. In IDE: 
