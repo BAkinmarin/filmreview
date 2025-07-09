@@ -250,3 +250,7 @@ a {
     font-size: 1.5rem;
     font-weight: 500;
 }
+
+.about-h2:hover {
+    color: #004643;
+}

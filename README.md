@@ -152,7 +152,8 @@ This Django project consists of:
 - [GitHub](https://github.com/): Used to host source code and version control.
 - [VSCode](https://code.visualstudio.com/): Used as Integrated Development Environment (IDE).
 - [Heroku](https://www.heroku.com/): Used for deploying the project.
-- [Font Awesome](https://fontawesome.com/): Source of all the icons used in this project.
+- [Font Awesome](https://fontawesome.com/): Source of icons used in this project.
+- [Unicode Emoji Characters](https://unicode.org/emoji/charts/full-emoji-list.html): Source of emojis.
 - [Coolors](https://coolors.co/): Used to generate color palette.
 - [Convertio](https://convertio.co/): Used to compress images used in project for optimal load times.
 - [Favicon](https://favicon.io/): Used to generate favicon for project.
@@ -475,6 +476,8 @@ To create a copy of the repository in your account so you can modify independent
 - [Mufasa: The Lion King Photo](https://m.media-amazon.com/images/M/MV5BYjBkOWUwODYtYWI3YS00N2I0LWEyYTktOTJjM2YzOTc3ZDNlXkEyXkFqcGc@._V1_UY1200_CR90,0,630,1200_AL_.jpg) used as blog photo for Mufasa: The Lion King film review.
 
 - [One Of Them Days Photo](https://m.media-amazon.com/images/M/MV5BYjdhZDVkZDYtNDdlMC00MzcyLTgyYzgtNWUzODk4YTE2YWQ4XkEyXkFqcGc@._V1_.jpg) used as blog photo for One Of Them Days film review.
+
+- [About Blog Photo](https://www.cinemaclock.com/movies/i-like-movies-2022) used as a cover photo for About page.
 
 ### [Code](#code)
 - [Code Institute's Codestar Blog Walkthrough](https://github.com/Code-Institute-Solutions/blog) Project created in line with course content and within portfolio project 4 scope.
