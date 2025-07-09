@@ -484,6 +484,8 @@ To create a copy of the repository in your account so you can modify independent
 
 - [Ragas Imger's Stack Overflow Contribution](https://stackoverflow.com/questions/76558562/how-do-i-upload-a-picture-to-my-blog-using-the-django-administration) inspired the method used to render images directly through Django Administration.
 
+- [Configuration Parameters](https://cloudinary.com/documentation/cloudinary_sdks#configuration_parameters) useful during testing to force Cloudinary to serve image URLs over HTTPS instead of HTTP.
+
 [Back to Top](#ux)
 
 ## Acknowledgements
