@@ -154,12 +154,17 @@ This Django project consists of:
 - [Heroku](https://www.heroku.com/): Used for deploying the project.
 - [Font Awesome](https://fontawesome.com/): Source of all the icons used in this project.
 - [Coolors](https://coolors.co/): Used to generate color palette.
-- [Convertio](https://convertio.co/): Used to compress each image used in the project for optimal load times.
+- [Convertio](https://convertio.co/): Used to compress images used in project for optimal load times.
+- [Favicon](https://favicon.io/): Used to generate favicon for project.
 - [drawSQL](https://drawsql.app/): Used to create the Entity Relationship Diagram (ERD).
 - [Google Font](https://fonts.google.com/): Used for the typography used in the project.
 - [Bootstrap4](https://getbootstrap.com/): Used for base styling of the blog.
 - [Cloudinary](https://cloudinary.com/): Used for storing static files.
 - [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/): Used to debug project.
+- [PostgreSQL from Code Institute](https://dbs.ci-dbs.net/): Used to create database.
+- [Code Institute Python Linter](https://pep8ci.herokuapp.com/): Used to validate Python.
+- [W3C HTML Validator](https://validator.w3.org/): Used to validate HTML.
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_uri): Used to validate CSS.
 
 ## Packages
 - [Django](https://www.djangoproject.com/) was used as the framework for the blog.
@@ -175,7 +180,7 @@ This Django project consists of:
 
 ## Testing
 
-### User Testing
+### User Testing - Manual
 
 <details>
     <summary>User Navigation</summary>
@@ -286,6 +291,12 @@ This Django project consists of:
         </div>
     </div>
 </details>
+
+[Back to Top](#ux)
+
+### Code Validation
+Pep8 Compliance
+![Python Validation](media/readme/filmreview-pythonvalidation.png)
 
 [Back to Top](#ux)
 
