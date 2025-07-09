@@ -234,3 +234,19 @@ a {
 .card-text:last-child {
     font-weight: 500;
 }
+
+.about-text {
+    text-align: justify;
+}
+
+.about-span {
+    color: #004643;
+    font-weight: 500;
+    font-size: 1.5rem;
+    font-style: oblique;
+}
+
+.about-link {
+    font-size: 1.5rem;
+    font-weight: 500;
+}

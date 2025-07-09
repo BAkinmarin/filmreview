@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-4 text-center">
+            <img src="{% static 'images/i-like-movies-2022-poster.webp' %}" width="75%">
+        </div>
+        <div class="col-8">
+            <h2>About This Blog</h2>
+            <p class="card-text about-text">
+                Welcome to a space where stories are revered and plots are dissected with passion. 
+                <strong>This isn't just a blog—it's a stage</strong> for cinematic exploration, built from the ground up with 
+                <span class="about-span">Django</span> and the heart of a storyteller.
+            </p>
+
+            <p class="card-text about-text">
+                🖋️<strong>Creator's Vision:</strong> Born from a deep love of narrative craft, this platform dives into the art of 
+                plot creation—celebrating bold twists, subtle arcs, and everything between. Each review is a tribute to the brilliance of storytelling.
+            </p>
+
+            <p class="card-text about-text">
+                💻<strong>Behind the Scenes:</strong> Powered by <span class="about-span">Python</span> and <span class="about-span">Django</span>, the site showcases responsive design, modular templates, 
+                and intuitive search—all orchestrated for a smooth user experience.
+            </p>
+
+            <p class="card-text about-text">
+                🚀<strong>Mission:</strong> To combine technical precision with creative depth, giving users a place to engage with films through 
+                insightful reviews, powerful search, and a clean, immersive design.
+            </p>
+
+            <div class="text-center">
+                <a href="https://github.com/BAkinmarin" class="about-link"> 🔗Visit My Portfolio</a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col text-right">
+            <!-- Updated on field goes in here -->
+            <p class="text-end text-login"><em>Updated on: </em></p>
+        </div>
+    </div>
+</div>
+{% endblock %}

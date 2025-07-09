@@ -62,7 +62,7 @@ The blog should have a navigation menu that is consistent across all pages and d
 ## [Structure](structure)
 This Django project consists of:
 
-**Apps** - <code>review</code> and <code>about</code>
+**Apps** - <code>about</code> and <code>review</code>
 
 **Templates** - <code>base.html</code> <code>index.html</code> <code>post_detail.html</code> <code>search_results.html</code>
 

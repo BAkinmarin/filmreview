@@ -67,25 +67,6 @@ def post_detail(request, slug):
     )
 
 
-def search_results(request):
-    q = request.GET.get('q')
-    error_message = None
-    results = []
-
-    if q:
-        results = Post.objects.filter(title__icontains=q)
-    else:
-        error_message = "Please enter a search criteria!"
-
-    context = {
-        'results': results,
-        'q': q,
-        'error_message': error_message
-    }
-
-    return render(request, 'review/search_results.html', context)
-
-
 def comment_edit(request, slug, comment_id):
     """
     View to edit comments
@@ -129,3 +110,26 @@ def comment_delete(request, slug, comment_id):
                              'You can only delete your own comments!')
 
     return HttpResponseRedirect(reverse('post_detail', args=[slug]))
+
+
+def search_results(request):
+    q = request.GET.get('q')
+    error_message = None
+    results = []
+
+    if q:
+        results = Post.objects.filter(title__icontains=q)
+    else:
+        error_message = "Please enter a search criteria!"
+
+    context = {
+        'results': results,
+        'q': q,
+        'error_message': error_message
+    }
+
+    return render(request, 'review/search_results.html', context)
+
+
+def about(request):
+    return render(request, 'review/about.html')
