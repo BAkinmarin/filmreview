@@ -165,6 +165,8 @@ This Django project consists of:
 - [Code Institute Python Linter](https://pep8ci.herokuapp.com/): Used to validate Python.
 - [W3C HTML Validator](https://validator.w3.org/): Used to validate HTML.
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_uri): Used to validate CSS.
+- [Google Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/): Used to test performance.
+<!-- - [Web Accessibility Evaluation Tool](https://wave.webaim.org/): Used to validate accessibility. -->
 
 ## Packages
 - [Django](https://www.djangoproject.com/) was used as the framework for the blog.
@@ -295,8 +297,19 @@ This Django project consists of:
 [Back to Top](#ux)
 
 ### Code Validation
-Pep8 Compliance
-![Python Validation](media/readme/filmreview-pythonvalidation.png)
+
+#### CSS
+![CSS Validation Result](media/readme/filmreview-cssvalidation.png)
+
+#### HTML
+![HTML Validation Result](media/readme/filmreview-htmlvalidation.png)
+
+#### Python
+![Python Validation Result](media/readme/filmreview-pythonvalidation.png)
+
+[Back to Top](#ux)
+
+### Google Lighthouse
 
 [Back to Top](#ux)
 
