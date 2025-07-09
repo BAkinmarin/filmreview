@@ -321,7 +321,7 @@ This Django project consists of:
 ![Login Page Result](images/filmreview-lighthouse-login.png)
 
 #### About Page
-![About Page Result]()
+![About Page Result](images/filmreview-lighthouse-about.png)
 
 [Back to Top](#ux)
 
