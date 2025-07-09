@@ -209,3 +209,10 @@ a {
 .text-white {
     color: #FDFBED;
 }
+
+.error {
+    color: red;
+    font-family: "Federo", sans-serif;
+    font-weight: bold;
+    font-size: large;
+}

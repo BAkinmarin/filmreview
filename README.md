@@ -149,13 +149,13 @@ This Django project consists of:
 
 ### Tools
 
-- [Github](https://github.com/): Used to host source code and version control.
+- [GitHub](https://github.com/): Used to host source code and version control.
 - [VSCode](https://code.visualstudio.com/): Used as Integrated Development Environment (IDE).
 - [Heroku](https://www.heroku.com/): Used for deploying the project.
 - [Font Awesome](https://fontawesome.com/): Source of all the icons used in this project.
 - [Coolors](https://coolors.co/): Used to generate color palette.
 - [Convertio](https://convertio.co/): Used to compress each image used in the project for optimal load times.
-- [AssignmentGPT](https://assignmentgpt.ai/): Used to create the Entity Relationship Diagram (ERD).
+- [drawSQL](https://drawsql.app/): Used to create the Entity Relationship Diagram (ERD).
 - [Google Font](https://fonts.google.com/): Used for the typography used in the project.
 - [Bootstrap4](https://getbootstrap.com/): Used for base styling of the blog.
 - [Cloudinary](https://cloudinary.com/): Used for storing static files.
@@ -198,7 +198,17 @@ This Django project consists of:
                     <th>Pass</th>
                 </tr>
                 <tr>
-                    <td>User can navigate to home page at any time by clicking Logo or Home </td>
+                    <td>User can navigate to home page at any time by clicking Logo or Home</td>
+                    <td>Pass</td>
+                    <th>Pass</th>
+                </tr>
+                <tr>
+                    <td>User can search blogsite for a specific film and view results of search criteria</td>
+                    <td>Pass</td>
+                    <th>Pass</th>
+                </tr>
+                <tr>
+                    <td>User is shown error message if they hit search without entering a search criteria</td>
                     <td>Pass</td>
                     <th>Pass</th>
                 </tr>
@@ -308,7 +318,7 @@ This Django project consists of:
                 </tr>
                 <tr>
                     <td>Search shows all reviews when no search criteria entered</td>
-                    <td>Updated html and logic to include error message</td>
+                    <td>Updated HTML and Python to include error message</td>
                     <td>Fixed</td>
                 </tr>
             </table>
@@ -372,7 +382,7 @@ This Django project consists of:
 ![alt text](media/readme/env.py_message.png)
 
 ### Heroku
-1. In GitHub: 
+1. In IDE: 
     - Use <code>pip3 freeze > requirements.txt</code> in command line to create requirements for Heroku.
     - Create a <code>.python-version</code> file with the Python version needed for Heroku to run project.
     - Create a <code>Procfile</code> and add <code>web: gunicorn [app name].wsgi</code> to file for Heroku.
