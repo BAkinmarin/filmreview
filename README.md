@@ -42,11 +42,13 @@ As a user, I want to modify or delete comments previously left on posts.
 
 As a user, I want to know what films are yet to be released and their release date.
 
+As a user, I want to be able to search for a specific film review and view comments from other visitors.
+
 As a user, I want to interact with both film reviews from the author and comments from other visitors.
 
-As a user, I want to be presented with a punchy but well presented list of films, so that I can choose the reviews I want to read in more detail.
+As a user, I want to be able to read about the owner of the blog so that I can find out more about them.
 
-As a user, I want to be able to search for a specific film review and view comments from other visitors.
+As a user, I want to be presented with a punchy but well presented list of films, so that I can choose the reviews I want to read in more detail.
 
 ### Site Admin
  
@@ -54,7 +56,11 @@ As a site admin, I want to be able to create a draft, then finish and post at a 
 
 As a super user, I want to be able to create film review posts using a user-friendly interface.
 
+As a site owner, I want to be able to convey my passion for films and plots through my Blogsite.
+
 As a super user, I want to be able to monitor user comments with full Create, Read, Update, and Delete (CRUD) functionality.
+
+As a site owner, I want to be able to interact and connect with users, producing relevant content by accepting requests for films to review.
 
 ## [Scope](scope)
 The blog should have a navigation menu that is consistent across all pages and devices.
