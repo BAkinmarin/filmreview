@@ -78,6 +78,11 @@ This Django project consists of:
 [Back to Top](#ux)
 
 ## Features
+### Navigation Bar
+![Navigation Bar](images/filmreview-navbar.png)
+- This project includes a fully responsive navigation bar on all pages and consists of links to the various pages listed on the left side of the Blog Name, which doubles up as a Logo. There is also a fully functional 'Search Bar' for quick access to specific film reviews.
+
+- On smaller devices, the navigation bar is a burger icon, providing easy transition between various pages without the need of the 'Back' browser button. Clicking the Blog Name / Logo also takes the user to the 'Home Page' from anywhere in the Blog.
 
 [Back to Top](#ux)
 
