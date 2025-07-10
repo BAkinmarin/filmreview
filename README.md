@@ -63,12 +63,28 @@ As a super user, I want to be able to monitor user comments with full Create, Re
 As a site owner, I want to be able to interact and connect with users, producing relevant content by accepting requests for films to review.
 
 ## [Scope](scope)
-The blog should have a navigation menu that is consistent across all pages and devices.
+The blogsite should have a navigation menu that is consistent across all pages and devices.
+
+The blogsite should have clear messaging to users explaining what the blog is about and the why of the owner.
+
+The blogsite should provide a succint list of reviewed films at first glance, allowing the user to click for more detail.
+
+The blogsite should promote engagement and collaboration through functionality to leave comments and likes on film reviews.
+
+The blogsite should enhance engagement and collaboration through functionality to receive requests for films to review from users.
+
+The blogsite should provide the user with a way to get in touch directly and explore other passions, interests and hobbies of the owner.
 
 ## [Structure](structure)
 This Django project consists of:
 
-**Apps** - <code>about</code> and <code>review</code>
+**Apps** - <code>review</code> and <code>about</code>
+
+### Review
+The <code>review</code> App
+
+### About
+The About App should have the Blog name, Navigation
 
 **Templates** - <code>base.html</code> <code>index.html</code> <code>post_detail.html</code> <code>search_results.html</code>
 
@@ -79,7 +95,11 @@ This Django project consists of:
 **Views** - Handles detail pages with <code>views.py</code> and search queries with dynamic responses
 
 ## [Skeleton](skeleton)
+
 ## [Surface](surface)
+### Agile
+![Agile Planning](images/filmreview-agile.png)
+This project was developed using Agile methodology. User Stories are accompanied by a set of Acceptance Criteria and Tasks, helping to define and test functionality.
 
 [Back to Top](#ux)
 
