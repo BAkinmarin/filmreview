@@ -233,6 +233,7 @@ a {
 
 .about-text {
     text-align: justify;
+    font-weight: 500;
 }
 
 .about-span {
@@ -249,4 +250,53 @@ a {
 
 .about-h2:hover {
     color: #004643;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.about-section {
+  border-radius: 12px;
+  animation: fadeIn 1.5s ease-out;
+}
+
+.about-section p {
+  font-size: 1.2rem;
+  margin: 1.5rem 0;
+  animation: fadeIn 1.5s ease-out;
+}
+
+@keyframes trailerReveal {
+  0% {
+    opacity: 0;
+    transform: scale(0.8) rotateX(90deg);
+    letter-spacing: 0.5em;
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(1.05) rotateX(45deg);
+    letter-spacing: 0.3em;
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) rotateX(0deg);
+    letter-spacing: normal;
+  }
+}
+
+.header-trailer {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  animation: trailerReveal 2.2s ease-out;
+  transform-origin: top;
+}
+
+img {
+    vertical-align: middle;
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
 }
