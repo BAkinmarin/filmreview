@@ -4,7 +4,7 @@ My Film Review is a blog bringing you fresh and original views of different genr
 
 This blog was created using Django and has full CRUD functionality with an intuitive User Interface to make interactions with posts and other users simple and fun!
 
-<!--![Am I Responsive Screenshot]()-->
+<!--<img src="images/filmreview-erd.png" alt="I Am Responsive"><br>-->
 
 - [Live Site](https://my-film-blog-pp4-d9dc642517af.herokuapp.com/)
 
@@ -96,12 +96,15 @@ This Django project consists of:
 [Back to Top](#ux)
 
 ## [Skeleton](skeleton)
+### Wireframe
+<img src="images/filmreview-wireframe.PNG" alt="Handsketched Wireframe" style="width: 100%;"><br>
+
 ### Database
-![Entity Relationship Diagram](images/filmreview-erd.png)
+<img src="images/filmreview-erd.png" alt="Entity Relationship Diagram" style="width: 100%;"><br>
 This project uses PostgreSQL from Code Institute for storing the data.
 
 ### Agile
-![Agile Planning](images/filmreview-agile.png)
+<img src="images/filmreview-agile.png" alt="Kanban Board" style="width: 100%;"><br>
 This project was developed using Agile methodology. User Stories are accompanied by a set of Acceptance Criteria and Tasks, helping to define and test functionality.
 
 [Back to Top](#ux)
@@ -121,10 +124,22 @@ The font used in this project was inspired by a desire to use an uncommon font w
 
 ## Features
 ### Navigation Bar
-![Navigation Bar](images/filmreview-navbar.png)
+<img src="images/filmreview-navbar.png" alt="NavBar - Large Devices" style="width: 100%;"><br>
 - This project includes a fully responsive navigation bar on all pages and consists of links to the various pages listed on the left side of the Blog Name, which doubles up as a Logo. There is also a fully functional 'Search Bar' for quick access to specific film reviews.
 
+<img src="images/filmreview-burger.png" alt="NavBar - Burger Icon" style="width: 49.5%;">
+<img src="images/filmreview-burger-expanded.png" alt="NavBar - Burger Icon Expanded" style="width: 49.5%;"><br>
 - On smaller devices, the navigation bar is a burger icon, providing easy transition between various pages without the need of the 'Back' browser button. Clicking the Blog Name / Logo also takes the user to the 'Home Page' from anywhere in the Blog.
+
+### Landing Page
+<img src="images/filmreview-landing-no-login.png" alt="Landing Page - Not logged in" style="width: 100%;"><br>
+- The landing page opens with a clear delivery of the purpose of the blogsite - with a display of a maximum of 6 reviews, showing the title, a cover photo and excerpt.
+
+- Additionally, there is a login status at the top right corner of the blogsite letting the user know if they are logged in or not.
+
+- If not logged in, they see the above with the message "You are not logged in" displayed in red. Alternatively, they see a message "You are logged in as (username)" displaed as shown below:
+
+<img src="images/filmreview-landing-login.png" alt="Landing Page Logged in" style="width: 100%;"><br>
 
 [Back to Top](#ux)
 
@@ -377,28 +392,28 @@ The font used in this project was inspired by a desire to use an uncommon font w
 ### Code Validation
 
 #### CSS
-![CSS Validation Result](images/filmreview-cssvalidation.png)
+<img src="images/filmreview-cssvalidation.png" alt="CSS Validation Result" style="width: 100%;"><br>
 
 #### HTML
-![HTML Validation Result](images/filmreview-htmlvalidation.png)
+<img src="images/filmreview-htmlvalidation.png" alt="HTML Validation Result" style="width: 100%;"><br>
 
 #### Python
-![Python Validation Result](images/filmreview-pythonvalidation.png)
+<img src="images/filmreview-pythonvalidation.png" alt="Python Validation Result" style="width: 100%;"><br>
 
 [Back to Top](#ux)
 
 ### Google Lighthouse
 #### Landing Page
-![Landing Page Result](images/filmreview-lighthouse-index.png)
+<img src="images/filmreview-lighthouse-index.png" alt="Landing Page Lighthouse Result" style="width: 100%;"><br>
 
 #### Sign Up Page
-![Sign Up Page Result](images/filmreview-lighthouse-signup.png)
+<img src="images/filmreview-lighthouse-signup.png" alt="Signup Page Lighthouse Result" style="width: 100%;"><br>
 
 #### Login Page
-![Login Page Result](images/filmreview-lighthouse-login.png)
+<img src="images/filmreview-lighthouse-login.png" alt="Login Page Lighthouse Result" style="width: 100%;"><br>
 
 #### About Page
-![About Page Result](images/filmreview-lighthouse-about.png)
+<img src="images/filmreview-lighthouse-about.png" alt="About Page Lighthouse Result" style="width: 100%;"><br>
 
 [Back to Top](#ux)
 
@@ -489,10 +504,10 @@ The font used in this project was inspired by a desire to use an uncommon font w
 [Back to Top](#ux)
 
 ### <code>settings.py</code>
-![settings.py](images/settings.py_message.png)
+<img src="images/settings.py_message.png" alt="Snapshot of settings.py code" style="width: 100%;"><br>
 
 ### <code>env.py</code>
-![alt text](images/env.py_message.png)
+<img src="images/env.py_message.png" alt="Snapshot of env.py code" style="width: 100%;"><br>
 
 ### Heroku
 1. In IDE: 
