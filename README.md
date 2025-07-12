@@ -108,9 +108,15 @@ This project was developed using Agile methodology. User Stories are accompanied
 [Back to Top](#ux)
 
 ## [Surface](surface)
-### Colour
+### Colour Palette
+The colours used in this project was inspired by what they symbolise:
+- Green - #004643 - known for its calming and soothing effect on the eyes and mind.
+- Ivory - #FDFBED - known for sophistication, evokes feelings of tranquility.
 
 ### Typography
+The font used in this project was inspired by a desire to use an uncommon font without detracting from its readability. After a brief search on Google, the following Google Fonts imports were used:
+- 'Federo' as the main font for all text
+- 'Sans-Serif' as the default in case 'Federo' fails
 
 [Back to Top](#ux)
 
