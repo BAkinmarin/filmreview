@@ -62,6 +62,8 @@ As a super user, I want to be able to monitor user comments with full Create, Re
 
 As a site owner, I want to be able to interact and connect with users, producing relevant content by accepting requests for films to review.
 
+[Back to Top](#ux)
+
 ## [Scope](scope)
 The blogsite should have a navigation menu that is consistent across all pages and devices.
 
@@ -75,31 +77,40 @@ The blogsite should enhance engagement and collaboration through functionality t
 
 The blogsite should provide the user with a way to get in touch directly and explore other passions, interests and hobbies of the owner.
 
+[Back to Top](#ux)
+
 ## [Structure](structure)
 This Django project consists of:
 
-**Apps** - <code>review</code> and <code>about</code>
+**Apps** - Core <code>review</code> app for handling posts, search functionality, and rendering primary pages and <code>about</code> app for informative purposes.
 
-### Review
-The <code>review</code> App
+**Templates** - Modular templates for reusable layouts <code>base.html</code> <code>index.html</code> <code>post_detail.html</code> <code>search_results.html</code> <code>about.html</code>.
 
-### About
-The About App should have the Blog name, Navigation
+**Models** - Basic <code>Post</code> model for storing film reviews with fields like <code>title</code> <code>slug</code> <code>body</code> <code>created</code>.
 
-**Templates** - <code>base.html</code> <code>index.html</code> <code>post_detail.html</code> <code>search_results.html</code>
+**URLs** - Routed with <code>urls.py</code> using meaningful patterns like <code>post/<'slug:slug'>/</code> and <code>search/</code>.
 
-**Models** - Basic <code>Post</code> model for storing film reviews with fields like <code>title</code> <code>slug</code> <code>body</code> <code>created</code>
+**Views** - Handles logic for rendering page details with <code>views.py</code> and search queries with dynamic responses.
 
-**URLs** - Routed with <code>urls.py</code> using meaningful patterns like <code>post/<'slug:slug'>/</code> and <code>search/</code>
+**Bootstrap4** - For responsive layout across all screen sizes with context-sensitive image display.
 
-**Views** - Handles detail pages with <code>views.py</code> and search queries with dynamic responses
+[Back to Top](#ux)
 
 ## [Skeleton](skeleton)
+### Database
+![Entity Relationship Diagram](images/filmreview-erd.png)
+This project uses PostgreSQL from Code Institute for storing the data.
 
-## [Surface](surface)
 ### Agile
 ![Agile Planning](images/filmreview-agile.png)
 This project was developed using Agile methodology. User Stories are accompanied by a set of Acceptance Criteria and Tasks, helping to define and test functionality.
+
+[Back to Top](#ux)
+
+## [Surface](surface)
+### Colour
+
+### Typography
 
 [Back to Top](#ux)
 
