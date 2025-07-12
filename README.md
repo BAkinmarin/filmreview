@@ -13,13 +13,12 @@ This blog was created using Django and has full CRUD functionality with an intui
 1. [UX](#ux)
 2. [Features](#features)
 3. [Future Features](#future-features)
-4. [Responsiveness](#responsiveness)
-5. [Technologies](#technologies)
-6. [Testing](#testing)
-7. [Bugs](#bugs)
-8. [Deployment](#deployment)
-9. [Credits](#credits)
-10. [Acknowledgements](#acknowledgements)
+4. [Technologies](#technologies)
+5. [Testing](#testing)
+6. [Bugs](#bugs)
+7. [Deployment](#deployment)
+8. [Credits](#credits)
+9. [Acknowledgements](#acknowledgements)
 
 
 ## UX
@@ -129,10 +128,6 @@ The font used in this project was inspired by a desire to use an uncommon font w
 
 [Back to Top](#ux)
 
-## Responsiveness
-
-[Back to Top](#ux)
-
 ## Technologies
 
 <table>
@@ -215,7 +210,6 @@ The font used in this project was inspired by a desire to use an uncommon font w
 - [W3C HTML Validator](https://validator.w3.org/): Used to validate HTML.
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_uri): Used to validate CSS.
 - [Google Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/): Used to test performance.
-<!-- - [Web Accessibility Evaluation Tool](https://wave.webaim.org/): Used to validate accessibility. -->
 
 ## Packages
 - [Django](https://www.djangoproject.com/) was used as the framework for the blog.
@@ -234,77 +228,7 @@ The font used in this project was inspired by a desire to use an uncommon font w
 ### User Testing - Manual
 
 <details>
-    <summary>User Navigation</summary>
-    <div style="display: flex; justify-content: center;">
-        <div style="overflow-x: auto; width: 80%;">
-            <table style="margin: 0 auto; border-collapse: collapse; width: 100%;">
-                <tr>
-                    <th>Test</th>
-                    <th>Expectation</th>
-                    <th>Outcome</th>
-                </tr>
-                <tr>
-                    <td>Navigation links lead to their intended pages</td>
-                    <td>User is made aware via navigation links where they are on the Blog</td>
-                    <th>Pass</th>
-                </tr>
-                <tr>
-                    <td>User can look view content without signing in</td>
-                    <td>Pass</td>
-                    <th>Pass</th>
-                </tr>
-                <tr>
-                    <td>User can navigate to home page at any time by clicking Logo or Home</td>
-                    <td>Pass</td>
-                    <th>Pass</th>
-                </tr>
-                <tr>
-                    <td>User can search blogsite for a specific film and view results of search criteria</td>
-                    <td>Pass</td>
-                    <th>Pass</th>
-                </tr>
-                <tr>
-                    <td>User is shown error message if they hit search without entering a search criteria</td>
-                    <td>Pass</td>
-                    <th>Pass</th>
-                </tr>
-            </table>
-        </div>
-    </div>
-</details>
-
-<details>
-    <summary>User Registration</summary>
-    <div style="display: flex; justify-content: center;">
-        <div style="overflow-x: auto; width: 80%;">
-            <table style="margin: 0 auto; border-collapse: collapse; width: 100%;">
-                <tr>
-                    <th>Test</th>
-                    <th>Expectation</th>
-                    <th>Outcome</th>
-                </tr>
-                <tr>
-                    <td>User can create an account on the blogsite</td>
-                    <td>Pass</td>
-                    <th>Pass</th>
-                </tr>
-                <tr>
-                    <td>User can login to existing account</td>
-                    <td>Pass</td>
-                    <th>Pass</th>
-                </tr>
-                <tr>
-                    <td>User is informed once account has successfully been created</td>
-                    <td>Pass</td>
-                    <th>Pass</th>
-                </tr>
-            </table>
-        </div>
-    </div>
-</details>
-
-<details>
-    <summary>User Experience</summary>
+    <summary>Experience</summary>
     <div style="display: flex; justify-content: center;">
         <div style="overflow-x: auto; width: 80%;">
             <table style="margin: 0 auto; border-collapse: collapse; width: 100%;">
@@ -335,6 +259,106 @@ The font used in this project was inspired by a desire to use an uncommon font w
                 </tr>
                 <tr>
                     <td>User receives message to confirm status of all activities on site</td>
+                    <td>Pass</td>
+                    <td>Pass</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</details>
+
+<details>
+    <summary>Navigation</summary>
+    <div style="display: flex; justify-content: center;">
+        <div style="overflow-x: auto; width: 80%;">
+            <table style="margin: 0 auto; border-collapse: collapse; width: 100%;">
+                <tr>
+                    <th>Test</th>
+                    <th>Expectation</th>
+                    <th>Outcome</th>
+                </tr>
+                <tr>
+                    <td>Navigation links lead to their intended pages</td>
+                    <td>User is made aware via navigation links where they are on the Blog</td>
+                    <td>Pass</td>
+                </tr>
+                <tr>
+                    <td>User can look view content without signing in</td>
+                    <td>Pass</td>
+                    <td>Pass</td>
+                </tr>
+                <tr>
+                    <td>User can navigate to home page at any time by clicking Logo or Home</td>
+                    <td>Pass</td>
+                    <td>Pass</td>
+                </tr>
+                <tr>
+                    <td>User can search blogsite for a specific film and view results of search criteria</td>
+                    <td>Pass</td>
+                    <td>Pass</td>
+                </tr>
+                <tr>
+                    <td>User is shown error message if they hit search without entering a search criteria</td>
+                    <td>Pass</td>
+                    <td>Pass</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</details>
+
+<details>
+    <summary>Registration</summary>
+    <div style="display: flex; justify-content: center;">
+        <div style="overflow-x: auto; width: 80%;">
+            <table style="margin: 0 auto; border-collapse: collapse; width: 100%;">
+                <tr>
+                    <th>Test</th>
+                    <th>Expectation</th>
+                    <th>Outcome</th>
+                </tr>
+                <tr>
+                    <td>User can create an account on the blogsite</td>
+                    <td>Pass</td>
+                    <td>Pass</td>
+                </tr>
+                <tr>
+                    <td>User can login to existing account</td>
+                    <td>Pass</td>
+                    <td>Pass</td>
+                </tr>
+                <tr>
+                    <td>User is informed once account has successfully been created</td>
+                    <td>Pass</td>
+                    <td>Pass</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</details>
+
+<details>
+    <summary>Responsiveness</summary>
+    <div style="display: flex; justify-content: center;">
+        <div style="overflow-x: auto; width: 80%;">
+            <table style="margin: 0 auto; border-collapse: collapse; width: 100%;">
+                <tr>
+                    <th>Test</th>
+                    <th>Expectation</th>
+                    <th>Outcome</th>
+                </tr>
+                <tr>
+                    <td>Home, about, register and login pages display correctly on mobiles and tablets (769px and lower)</td>
+                    <td>Pass</td>
+                    <td>Pass</td>
+                </tr>
+                <tr>
+                    <td>Home, about, register, and login pages display correctly on laptops and desktops (992px and higher - up to 1200px)</td>
+                    <td>Pass</td>
+                    <td>Pass</td>
+                </tr>
+                <tr>
+                    <td>Photos associated with posts are hidden on smaller devices when clicked into</td>
                     <td>Pass</td>
                     <td>Pass</td>
                 </tr>
