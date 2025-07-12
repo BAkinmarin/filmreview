@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Federo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Federo&family=Fira+Mono:wght@400;500;700&display=swap');
 
 body {
     background-color: #FDFBED;
@@ -9,6 +9,10 @@ body {
     font-size: 2rem;
     font-weight: 700;
     color: #FDFBED;
+}
+
+h1 {
+    font-family: "Federo", sans-serif;
 }
 
 h2 {
@@ -123,6 +127,7 @@ h2:hover {
 .post-subtitle {
     margin-left: 5%;
     color: lightgray;
+    font-family: "Fira Mono", monospace;
 }
 
 .btn-signup, .btn-edit {

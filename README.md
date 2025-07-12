@@ -119,6 +119,7 @@ The colours used in this project was inspired by what they symbolise:
 The font used in this project was inspired by a desire to use an uncommon font without detracting from its readability. After a brief search on Google, the following Google Fonts imports were used:
 - 'Federo' as the main font for all text
 - 'Sans-Serif' as the default in case 'Federo' fails
+- 'Fira Mono' as the post-subtitle text containing author, date and time stamp
 
 [Back to Top](#ux)
 
@@ -127,8 +128,8 @@ The font used in this project was inspired by a desire to use an uncommon font w
 <img src="images/filmreview-navbar.png" alt="NavBar - Large Devices" style="width: 100%;"><br>
 - This project includes a fully responsive navigation bar on all pages and consists of links to the various pages listed on the left side of the Blog Name, which doubles up as a Logo. There is also a fully functional 'Search Bar' for quick access to specific film reviews.
 
-<img src="images/filmreview-burger.png" alt="NavBar - Burger Icon" style="width: 49.5%;">
-<img src="images/filmreview-burger-expanded.png" alt="NavBar - Burger Icon Expanded" style="width: 49.5%;"><br>
+<img src="images/filmreview-burger.png" alt="NavBar - Burger Icon" style="width: 49%;">
+<img src="images/filmreview-burger-expanded.png" alt="NavBar - Burger Icon Expanded" style="width: 49%;"><br>
 - On smaller devices, the navigation bar is a burger icon, providing easy transition between various pages without the need of the 'Back' browser button. Clicking the Blog Name / Logo also takes the user to the 'Home Page' from anywhere in the Blog.
 
 ### Landing Page
@@ -137,9 +138,9 @@ The font used in this project was inspired by a desire to use an uncommon font w
 
 - Additionally, there is a login status at the top right corner of the blogsite letting the user know if they are logged in or not.
 
-- If not logged in, they see the above with the message "You are not logged in" displayed in red. Alternatively, they see a message "You are logged in as (username)" displaed as shown below:
-
 <img src="images/filmreview-landing-login.png" alt="Landing Page Logged in" style="width: 100%;"><br>
+
+- If not logged in, they see the above with the message "You are not logged in" displayed in red. Alternatively, they see a message "You are logged in as (username)" displaed as shown below:
 
 [Back to Top](#ux)
 
