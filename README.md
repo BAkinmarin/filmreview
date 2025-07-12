@@ -279,16 +279,21 @@ The font used in this project was inspired by a desire to use an uncommon font w
                 </tr>
                 <tr>
                     <td>Navigation links lead to their intended pages</td>
-                    <td>User is made aware via navigation links where they are on the Blog</td>
+                    <td>Pass</td>
                     <td>Pass</td>
                 </tr>
                 <tr>
-                    <td>User can look view content without signing in</td>
+                    <td>User can browse content without signing in</td>
                     <td>Pass</td>
                     <td>Pass</td>
                 </tr>
                 <tr>
                     <td>User can navigate to home page at any time by clicking Logo or Home</td>
+                    <td>Pass</td>
+                    <td>Pass</td>
+                </tr>
+                <tr>
+                    <td>User is aware of where they are on the blogsite via navigation links</td>
                     <td>Pass</td>
                     <td>Pass</td>
                 </tr>
