@@ -3,7 +3,7 @@ from django.views import generic
 from django.contrib import messages
 from django.http import HttpResponseRedirect
 from .models import Post, Comment
-from .forms import CommentForm
+from .forms import CommentForm, ReviewRequestForm
 from django.db.models import Q
 
 
@@ -29,10 +29,6 @@ def post_detail(request, slug):
 
     queryset = Post.objects.filter(status=1)
     post = get_object_or_404(queryset, slug=slug)
-
-    # Render review template
-    print('post:', post)
-
     comments = post.comments.all().order_by("-created_on")
     comment_count = post.comments.filter(approved=True).count()
 
@@ -52,8 +48,6 @@ def post_detail(request, slug):
 
     # Reset Comment Form
     comment_form = CommentForm()
-
-    print("About to render template")
 
     return render(
         request,
@@ -132,4 +126,13 @@ def search_results(request):
 
 
 def about(request):
-    return render(request, 'review/about.html')
+    form = ReviewRequestForm()
+    if request.method == 'POST':
+        form = ReviewRequestForm(request.POST)
+
+        if form.is_valid():
+            return render(request, 'review/about.html', {
+                'form': ReviewRequestForm(),  # This resets the form
+                'success_message': "Your review request is sent!"
+            })
+    return render(request, 'review/about.html', {'form': form})
