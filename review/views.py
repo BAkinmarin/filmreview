@@ -33,7 +33,6 @@ def post_detail(request, slug):
     comment_count = post.comments.filter(approved=True).count()
 
     if request.method == "POST":
-        print("Received a POST request")
         comment_form = CommentForm(data=request.POST)
         if comment_form.is_valid():
             comment = comment_form.save(commit=False)
@@ -126,22 +125,14 @@ def search_results(request):
 
 
 def about(request):
-    form = ReviewRequestForm()
-    # success_message = None
-
     if request.method == 'POST':
         form = ReviewRequestForm(request.POST)
-
         if form.is_valid():
             form.save()
-            messages.succes(request, "🎉 We've got your request! Check back later!")
-            # success_message = "🎉 We've got your request! Check back later!"
+            messages.success(request, "🎉 We've got your request! Check back later!")
             return redirect('about')
 
     # Reset Request Form
     form = ReviewRequestForm()
 
-    return render(request, 'review/about.html', {
-        'form': form,
-        # 'success_message': success_message,
-    })
+    return render(request, 'review/about.html', {'form': form})

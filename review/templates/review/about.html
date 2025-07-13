@@ -8,7 +8,7 @@
     <!-- Content-->
     <div class="col-md-6 col-12">
       <div class="text-block">
-        <h2 class="about-h2 header-trailer">🎬About Blog</h2>
+        <h2 class="about-h2 header-trailer">🎬 About Blog</h2>
         <hr>
         <p class="card-text about-text">
             Welcome to a space where stories are revered and plots are dissected with passion. 
@@ -39,29 +39,18 @@
     <!-- <div class="text-center"> -->
     <div class="col-md-6 col-12">
       <div class="text-block">
-        <h2 class="about-h2 header-trailer">🎥Review Request</h2>
-        <hr>
-        <p class="card-text about-text">Is there a film you want us to review...Then fill in this form!</p>
-        {% if success_message %}
-        <p class="success-message">{{ success_message }}</p>
-        {% endif %}
-          {% if messages %}
-          <div id="message-container">
-            {% for message in messages %}
-            <p class="success-message">{{ message }}</p>
-            {% endfor %}
-            {% endif %}
-            <form method="post" style="margin-top: 1rem; padding: 1rem; border-radius: 8px; width: 100%;">
+        <h2 class="about-h2 header-trailer">🎥 Film Review</h2>
+          <form method="post" class="p-4 rounded dark-bg text-white card-text about-text">
+            <p class="text-white">Fill in this form to submit a film review request</p>
             {% csrf_token %}
             {{ form.as_p }}
-              <button type="submit" class="btn btn-signup btn-lg">Submit</button>
-            </form>
-          </div>
+            <button type="submit" class="btn btn-signup btn-lg btn-outline-success mt-2">Submit Request</button>
+          </form>
       </div>
     </div>
   </div>
 </div>
-<br>
+<br><br>
 <div class="text-center">
   <a href="https://github.com/BAkinmarin" class="about-link" target="_blank"> 🔗Visit My Portfolio</a>
 </div>

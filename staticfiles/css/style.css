@@ -22,10 +22,6 @@ h2 {
     color: #004643;
 }
 
-h3 {
-    font-family: "Federo", sans-serif;
-}
-
 .red-o {
     color: #D1AC00;
 }
@@ -209,6 +205,7 @@ a {
 
 .text-white {
     color: #FDFBED;
+    text-align: justify;
 }
 
 .error {
@@ -304,4 +301,21 @@ img {
     vertical-align: middle;
     height: -webkit-fill-available;
     width: -webkit-fill-available;
+}
+
+.success-message {
+  background-color: #FDFBED;
+  color: #004643;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: bold;
+  animation: fadeOut 4s ease-in-out forwards;
+}
+
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  80% { opacity: 1; }
+  100% { opacity: 0; display: none; }
 }

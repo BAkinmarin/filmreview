@@ -205,6 +205,7 @@ a {
 
 .text-white {
     color: #FDFBED;
+    text-align: justify;
 }
 
 .error {
@@ -303,12 +304,18 @@ img {
 }
 
 .success-message {
-  background-color: #d4edda;
-  color: #155724;
+  background-color: #FDFBED;
+  color: #004643;
   padding: 1rem;
   margin: 1rem 0;
-  border-radius: 5px;
+  border-radius: 6px;
   text-align: center;
   font-weight: bold;
-  transition: opacity 0.6s ease;
+  animation: fadeOut 4s ease-in-out forwards;
+}
+
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  80% { opacity: 1; }
+  100% { opacity: 0; display: none; }
 }
