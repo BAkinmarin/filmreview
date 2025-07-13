@@ -42,3 +42,14 @@ class Comment(models.Model):
 
     def __str__(self):
         return f"{self.body} by {self.author}"
+
+
+class ReviewRequest(models.Model):
+    name = models.CharField(max_length=100)
+    email = models.EmailField()
+    film_title = models.CharField(max_length=200)
+    message = models.TextField()
+    created_on = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return f"{self.film_title} requested by {self.name}"

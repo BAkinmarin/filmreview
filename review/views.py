@@ -127,12 +127,21 @@ def search_results(request):
 
 def about(request):
     form = ReviewRequestForm()
+    # success_message = None
+
     if request.method == 'POST':
         form = ReviewRequestForm(request.POST)
 
         if form.is_valid():
-            return render(request, 'review/about.html', {
-                'form': ReviewRequestForm(),  # This resets the form
-                'success_message': "Your review request is sent!"
-            })
-    return render(request, 'review/about.html', {'form': form})
+            form.save()
+            messages.succes(request, "🎉 We've got your request! Check back later!")
+            # success_message = "🎉 We've got your request! Check back later!"
+            return redirect('about')
+
+    # Reset Request Form
+    form = ReviewRequestForm()
+
+    return render(request, 'review/about.html', {
+        'form': form,
+        # 'success_message': success_message,
+    })

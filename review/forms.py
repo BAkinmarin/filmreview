@@ -1,4 +1,4 @@
-from .models import Comment
+from .models import Comment, ReviewRequest
 from django import forms
 
 
@@ -8,8 +8,7 @@ class CommentForm(forms.ModelForm):
         fields = ('body',)
 
 
-class ReviewRequestForm(forms.Form):
-    name = forms.CharField(max_length=100)
-    email = forms.EmailField()
-    film_title = forms.CharField(label="Film Title", max_length=200)
-    message = forms.CharField(widget=forms.Textarea, label="Why should this be reviewed?")
+class ReviewRequestForm(forms.ModelForm):
+    class Meta:
+        model = ReviewRequest
+        fields = ['name', 'email', 'film_title', 'message']

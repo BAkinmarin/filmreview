@@ -22,13 +22,6 @@ h2 {
     color: #004643;
 }
 
-h3 {
-    font-family: "Federo", sans-serif;
-    font-size: 2rem;
-    font-weight: 700;
-    color: #004643;
-}
-
 .red-o {
     color: #D1AC00;
 }
@@ -307,4 +300,15 @@ img {
     vertical-align: middle;
     height: -webkit-fill-available;
     width: -webkit-fill-available;
+}
+
+.success-message {
+  background-color: #d4edda;
+  color: #155724;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  transition: opacity 0.6s ease;
 }

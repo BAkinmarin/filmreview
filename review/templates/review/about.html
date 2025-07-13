@@ -27,28 +27,46 @@
             🚀<strong>Mission:</strong> To combine technical precision with creative depth, giving users a place to engage with films through 
             insightful reviews, powerful search, and a clean, immersive design.
         </p>
-        <hr>
-        <div class="text-center">
-            <a href="https://github.com/BAkinmarin" class="about-link" target="_blank"> 🔗Visit My Portfolio</a>
-        </div>
+        <br>
       </div>
     </div>
 
     <!-- Image Display for large Screens -->
-    <div class="col-md-6 d-none d-md-block">
+    <!-- <div class="col-md-6 d-none d-md-block"> -->
       <!-- <div class="img-wrapper">
         <img src="{% static 'images/i-like-movies-2022-poster.webp' %}" alt="About Page Image" class="img-fluid rounded shadow">
       </div> -->
-      <h3>📮 Review Request</h3>
-          {% if success_message %}
-            <p>{{ success_message }}</p>
-          {% endif %}
-          <form method="post" style="margin-top: 1rem; padding: 1rem; border-radius: 8px; width: 100%;">
+    <!-- <div class="text-center"> -->
+    <div class="col-md-6 col-12">
+      <div class="text-block">
+        <h2 class="about-h2 header-trailer">🎥Review Request</h2>
+        <hr>
+        <p class="card-text about-text">Is there a film you want us to review...Then fill in this form!</p>
+        {% if success_message %}
+        <p class="success-message">{{ success_message }}</p>
+        {% endif %}
+          {% if messages %}
+          <div id="message-container">
+            {% for message in messages %}
+            <p class="success-message">{{ message }}</p>
+            {% endfor %}
+            {% endif %}
+            <form method="post" style="margin-top: 1rem; padding: 1rem; border-radius: 8px; width: 100%;">
             {% csrf_token %}
             {{ form.as_p }}
-            <button type="submit" class="btn btn-signup btn-lg">Submit</button>
-          </form>
+              <button type="submit" class="btn btn-signup btn-lg">Submit</button>
+            </form>
+          </div>
+      </div>
     </div>
   </div>
 </div>
+<br>
+<div class="text-center">
+  <a href="https://github.com/BAkinmarin" class="about-link" target="_blank"> 🔗Visit My Portfolio</a>
+</div>
+{% endblock %}
+
+{% block copyright %}
+    © 2025 Bola Akinmarin
 {% endblock %}
