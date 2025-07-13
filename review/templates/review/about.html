@@ -5,8 +5,8 @@
 {% block content %}
 <div class="container mt-5">
   <div class="row">
-    <!-- Content-->
-    <div class="col-md-6 col-12">
+    <!-- About Blog Content-->
+    <div class="col-md-6 col-12 p-4">
       <div class="text-block">
         <h2 class="about-h2 header-trailer">🎬 About Blog</h2>
         <hr>
@@ -27,30 +27,23 @@
             🚀<strong>Mission:</strong> To combine technical precision with creative depth, giving users a place to engage with films through 
             insightful reviews, powerful search, and a clean, immersive design.
         </p>
-        <br>
       </div>
     </div>
 
-    <!-- Image Display for large Screens -->
-    <!-- <div class="col-md-6 d-none d-md-block"> -->
-      <!-- <div class="img-wrapper">
-        <img src="{% static 'images/i-like-movies-2022-poster.webp' %}" alt="About Page Image" class="img-fluid rounded shadow">
-      </div> -->
-    <!-- <div class="text-center"> -->
-    <div class="col-md-6 col-12">
-      <div class="text-block">
-        <h2 class="about-h2 header-trailer">🎥 Film Review</h2>
-          <form method="post" class="p-4 rounded dark-bg text-white card-text about-text">
-            <p class="text-white">Fill in this form to submit a film review request</p>
-            {% csrf_token %}
-            {{ form.as_p }}
-            <button type="submit" class="btn btn-signup btn-lg btn-outline-success mt-2">Submit Request</button>
-          </form>
+    <!-- Submit Review Request Content -->
+    <div class="col-md-6 col-12 p-4">
+      <h2 class="about-h2 header-trailer">🎥 Film Review</h2>
+      <div class="dark-bg text-white text-block">
+        <form method="post" class="p-4 text-white form-element">
+        <p class="text-white card-text about-text">Want me to review a film? Submit here!</p>
+          {% csrf_token %}
+          {{ form.as_p }}
+          <button type="submit" class="btn btn-signup btn-lg btn-outline-success mt-2">Submit Request</button>
+        </form>
       </div>
     </div>
   </div>
 </div>
-<br><br>
 <div class="text-center">
   <a href="https://github.com/BAkinmarin" class="about-link" target="_blank"> 🔗Visit My Portfolio</a>
 </div>

@@ -144,6 +144,10 @@ The font used in this project was inspired by a desire to use an uncommon font w
 
 [Back to Top](#ux)
 
+## Future Features
+
+[Back to Top](#ux)
+
 ## Technologies
 
 <table>
