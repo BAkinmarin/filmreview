@@ -158,9 +158,11 @@ The font used in this project was inspired by a desire to use an uncommon font w
 
 ### Register
 <img src="images/filmreview-signup.png" alt="Signup Page" style="width: 100%;"><br>
+- The blogsite offers users the option to register for full access to the site's functionality.
 
 ### Login
 <img src="images/filmreview-signin.png" alt="Login Page" style="width: 100%;"><br>
+- The blogsite offers returning users the option to login to continue with access to the site's functionality.
 
 ### About
 

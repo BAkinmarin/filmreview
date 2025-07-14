@@ -262,6 +262,16 @@ a {
     color: #004643;
 }
 
+.submit-link {
+    text-decoration: underline;
+}
+
+.submit-link:hover {
+    transform: scale(1.25);
+    transition: all 0.5s ease-in-out;
+    opacity: 0.5;
+}
+
 /* Fade-in animation */
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(20px); }

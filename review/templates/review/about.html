@@ -38,8 +38,15 @@
         <p class="text-white card-text about-text">Want me to review a film? Submit here!</p>
           {% csrf_token %}
           {{ form.as_p }}
+          {% if user.is_authenticated %}
           <button type="submit" class="btn btn-signup btn-lg btn-outline-success mt-2">Submit Request</button>
         </form>
+        {% else %}
+            <div class="text-white">
+              <a href="{% url 'account_login' %}?next={{ request.path }}" class="text-white submit-link">Login</a> or
+              <a href="{% url 'account_signup' %}?next={{ request.path }}" class="text-white submit-link">Register</a> to submit your request
+            </div>
+        {% endif %}
       </div>
     </div>
   </div>
