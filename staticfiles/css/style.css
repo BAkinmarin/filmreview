@@ -238,6 +238,14 @@ a {
     font-weight: 500;
 }
 
+.form-element {
+  font-size: 1.2rem !important;
+  padding: 0.75rem !important;
+  border-radius: 6px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
 .about-span {
     color: #004643;
     font-weight: 500;
@@ -289,8 +297,9 @@ a {
   }
 }
 
+/* Cinematic headers */
 .header-trailer {
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align: center;
   margin-bottom: 1.5rem;
   animation: trailerReveal 2.2s ease-out;

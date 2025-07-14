@@ -47,6 +47,8 @@ As a user, I want to interact with both film reviews from the author and comment
 
 As a user, I want to be able to read about the owner of the blog so that I can find out more about them.
 
+As a user, I want to be able to customise my experience of the blog by requesting a review of specific films.
+
 As a user, I want to be presented with a punchy but well presented list of films, so that I can choose the reviews I want to read in more detail.
 
 ### Site Admin
@@ -145,6 +147,7 @@ The font used in this project was inspired by a desire to use an uncommon font w
 [Back to Top](#ux)
 
 ## Future Features
+- Enhance interaction with posts and comments by introducing a 'Like' button.
 
 [Back to Top](#ux)
 
@@ -278,6 +281,11 @@ The font used in this project was inspired by a desire to use an uncommon font w
                     <td>Pass</td>
                 </tr>
                 <tr>
+                    <td>User can submit request to owner to review a specific film</td>
+                    <td>Pass</td>
+                    <td>Pass</td>
+                </tr>
+                <tr>
                     <td>User receives message to confirm status of all activities on site</td>
                     <td>Pass</td>
                     <td>Pass</td>
@@ -314,6 +322,11 @@ The font used in this project was inspired by a desire to use an uncommon font w
                 </tr>
                 <tr>
                     <td>User is aware of where they are on the blogsite via navigation links</td>
+                    <td>Pass</td>
+                    <td>Pass</td>
+                </tr>
+                <tr>
+                    <td>User can navigate to about page to view more information about the blog</td>
                     <td>Pass</td>
                     <td>Pass</td>
                 </tr>
@@ -384,6 +397,11 @@ The font used in this project was inspired by a desire to use an uncommon font w
                 </tr>
                 <tr>
                     <td>Photos associated with posts are hidden on smaller devices when clicked into</td>
+                    <td>Pass</td>
+                    <td>Pass</td>
+                </tr>
+                <tr>
+                    <td>Content on about page is layered when viewed on smaller devices</td>
                     <td>Pass</td>
                     <td>Pass</td>
                 </tr>
@@ -593,6 +611,8 @@ To create a copy of the repository in your account so you can modify independent
 - [Ragas Imger's Stack Overflow Contribution](https://stackoverflow.com/questions/76558562/how-do-i-upload-a-picture-to-my-blog-using-the-django-administration) inspired the method used to render images directly through Django Administration.
 
 - [Configuration Parameters](https://cloudinary.com/documentation/cloudinary_sdks#configuration_parameters) useful during testing to force Cloudinary to serve image URLs over HTTPS instead of HTTP.
+
+- [Django Documentation - The Form Rendering API](https://docs.djangoproject.com/en/4.2/ref/forms/renderers/) useful for customising the Submit Film Request form layout.
 
 [Back to Top](#ux)
 
