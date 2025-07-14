@@ -63,6 +63,8 @@ As a super user, I want to be able to monitor user comments with full Create, Re
 
 As a site owner, I want to be able to interact and connect with users, producing relevant content by accepting requests for films to review.
 
+As a site owner, I want to be able to promote user engagement via registration by only accepting film review requests from registered users.
+
 [Back to Top](#ux)
 
 ## [Scope](scope)
@@ -165,11 +167,19 @@ The font used in this project was inspired by a desire to use an uncommon font w
 - The blogsite offers returning users the option to login to continue with access to the site's functionality.
 
 ### About
+<img src="images/filmreview-about.png" alt="About Page" style="width: 100%;"><br>
+- The 'About' page includes a blurb about the reason for the blog and seeks to give visitors some insight into the owner, and their passion for film.
+
+- The page also includes a 'Film Review'submission form for users to submit film titles they specifically want reviewed and why.
+
+- Restrictions are applied to the form prohibiting unregistered users from submitting their requests. This is achieved with the inclusion of 'Login' and 'Register' links within the form which redirect the user to the page once they have either logged in or registered.
 
 [Back to Top](#ux)
 
 ## Future Features
 - Enhance interaction with posts and comments by introducing a 'Like' button.
+
+- Introduce polling system for film review requests and highlight on feature page.
 
 [Back to Top](#ux)
 
@@ -303,7 +313,17 @@ The font used in this project was inspired by a desire to use an uncommon font w
                     <td>Pass</td>
                 </tr>
                 <tr>
-                    <td>User can submit request to owner to review a specific film</td>
+                    <td>User cannot submit request to owner to review a specific film when not logged in</td>
+                    <td>Pass</td>
+                    <td>Pass</td>
+                </tr>
+                <tr>
+                    <td>User can submit request to owner to review a specific film when logged in</td>
+                    <td>Pass</td>
+                    <td>Pass</td>
+                </tr>
+                <tr>
+                    <td>User is redirected to About page if login or register is via film review form</td>
                     <td>Pass</td>
                     <td>Pass</td>
                 </tr>
