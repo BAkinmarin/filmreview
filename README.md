@@ -126,7 +126,7 @@ The font used in this project was inspired by a desire to use an uncommon font w
 [Back to Top](#ux)
 
 ## Features
-### Navigation Bar
+### Navigation
 <img src="images/filmreview-navbar.png" alt="NavBar - Large Devices" style="width: 100%;"><br>
 - This project includes a fully responsive navigation bar on all pages and consists of links to the various pages listed on the left side of the Blog Name, which doubles up as a Logo. There is also a fully functional 'Search Bar' for quick access to specific film reviews.
 
@@ -134,15 +134,35 @@ The font used in this project was inspired by a desire to use an uncommon font w
 <img src="images/filmreview-burger-expanded.png" alt="NavBar - Burger Icon Expanded" style="width: 49%;"><br>
 - On smaller devices, the navigation bar is a burger icon, providing easy transition between various pages without the need of the 'Back' browser button. Clicking the Blog Name / Logo also takes the user to the 'Home Page' from anywhere in the Blog.
 
-### Landing Page
+### Landing
 <img src="images/filmreview-landing-no-login.png" alt="Landing Page - Not logged in" style="width: 100%;"><br>
 - The landing page opens with a clear delivery of the purpose of the blogsite - with a display of a maximum of 6 reviews, showing the title, a cover photo and excerpt.
 
 - Additionally, there is a login status at the top right corner of the blogsite letting the user know if they are logged in or not.
 
-<img src="images/filmreview-landing-login.png" alt="Landing Page Logged in" style="width: 100%;"><br>
+<img src="images/filmreview-landing-login.png" alt="Landing Page - Logged in" style="width: 100%;"><br>
+- If not logged in, they see the first image above with the message "You are not logged in" displayed in red. Alternatively, they see a message "You are logged in as (username)" displayed immediately above this text.
 
-- If not logged in, they see the above with the message "You are not logged in" displayed in red. Alternatively, they see a message "You are logged in as (username)" displaed as shown below:
+### Posts
+<img src="images/filmreview-postdetail.png" alt="Post Detail - Not Logged in" style="width: 100%;"><br>
+- To encourage users to engage with content, they are able to view posts details without the need to register or login.
+
+### Comments
+<img src="images/filmreview-comments-no-login.png" alt="Comments - Not Logged in" style="width: 100%;"><br>
+- To encourage users to engage with content, they are able to view comments and without the need to register or login. However, they are unable to comment or interact with existing comments if they are not registered and signed in. The above image shows the comments view withcomment count for a user that isn't logged in.
+
+- The comments view also displays the number of comments on a post.
+
+<img src="images/filmreview-comments-login.png" alt="Landing Page Logged in" style="width: 100%;"><br>
+- The above image shows the comments view and comment count for a user that is registered and logged in.
+
+### Register
+<img src="images/filmreview-signup.png" alt="Signup Page" style="width: 100%;"><br>
+
+### Login
+<img src="images/filmreview-signin.png" alt="Login Page" style="width: 100%;"><br>
+
+### About
 
 [Back to Top](#ux)
 
