@@ -161,14 +161,6 @@ The font used in this project was inspired by a desire to use an uncommon font w
 <img src="images/filmreview-comments-login.png" alt="Landing Page Logged in" style="width: 100%;"><br>
 - The above image shows the comments view and comment count for a user that is registered and logged in.
 
-### Register
-<img src="images/filmreview-signup.png" alt="Signup Page" style="width: 100%;"><br>
-- The blogsite offers users the option to register for full access to the site's functionality.
-
-### Login
-<img src="images/filmreview-signin.png" alt="Login Page" style="width: 100%;"><br>
-- The blogsite offers returning users the option to login to continue with access to the site's functionality.
-
 ### About
 <img src="images/filmreview-about.png" alt="About Page" style="width: 100%;"><br>
 - The 'About' page includes a blurb about the reason for the blog and seeks to give visitors some insight into the writer, and their passion for film.
@@ -179,6 +171,25 @@ The font used in this project was inspired by a desire to use an uncommon font w
 
 <img src="images/filmreview-about-logged-in.png" alt="About Page" style="width: 100%;"><br>
 - Also included on this page is an invitation for users to explore some of my other work.
+
+### Register
+<img src="images/filmreview-signup.png" alt="Signup Page" style="width: 100%;"><br>
+- The blogsite offers users the option to register for full access to the site's functionality.
+
+### Login
+<img src="images/filmreview-signin.png" alt="Login Page" style="width: 100%;"><br>
+- The blogsite offers returning users the option to login to continue with access to the site's functionality.
+
+### Search
+<img src="images/filmreview-search-results-found.png" alt="About Page" style="width: 100%;"><br>
+- The project includes a 'Search' functionality that allows users to efficiently locate and view film reviews. Appropriate messaging accompanies search results as seen from the above example where film exists in database.
+
+<img src="images/filmreview-search-results-notfound.png" alt="About Page" style="width: 100%;"><br>
+- The image above is the view when a user's search does not produce a match.
+
+### Footer
+<img src="images/filmreview-footer.png" alt="About Page" style="width: 100%;"><br>
+- This project has a clean footer with the year of incorporation and the name of the writer.
 
 [Back to Top](#ux)
 

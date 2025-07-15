@@ -6,7 +6,7 @@
 {% if error_message %}
   <p class="error">{{ error_message }}</p>
 {% else %}
-  <h2 class="about-h2 text-center">Search Results for "{{ q }}"</h2>
+  <h2 class="search-h2">Search Results for "{{ q }}"</h2>
   <br>
   {% if results %}
     <ul class="thumbnail">
@@ -20,7 +20,7 @@
       {% endfor %}
     </ul>
   {% else %}
-    <p>No matches found.</p>
+    <p class="no-results">Oops! No matches found.</p>
   {% endif %}
 {% endif %}
 {% endblock %}

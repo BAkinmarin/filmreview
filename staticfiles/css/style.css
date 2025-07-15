@@ -291,6 +291,14 @@ a {
 }
 
 /* Search results */
+.search-h2 {
+    padding-left: 22px;
+}
+
+.search-h2:hover {
+    color: #004643;
+}
+
 .thumbnail {
   list-style-type: none;
 }
@@ -329,6 +337,14 @@ a {
 
 .search-thumbnails li:hover .thumb-title {
   color: #000;
+}
+
+.no-results {
+  font-style: italic;
+  font-size: 1.25rem;
+  padding: 1rem;
+  border-left: 4px;
+  border-radius: 6px;
 }
 
 /* Submit review request */
