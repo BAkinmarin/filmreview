@@ -1,10 +1,8 @@
 # Film Review Blog
 
-My Film Review is a blog bringing you fresh and original views of different genres of films. This web application allows users to register an account, login, and comment on reviews.
+My Film Review is a blog bringing you fresh and original views of different genres of films. This web application allows users to register an account, login, comment on reviews, and submit film review requests.
 
-This blog was created using Django and has full CRUD functionality with an intuitive User Interface to make interactions with posts and other users simple and fun!
-
-<!--<img src="images/filmreview-erd.png" alt="I Am Responsive"><br>-->
+This blog was created using Django and has full Create, Read, Update and Delete (CRUD) functionality with an intuitive User Interface to make interactions with posts and other users simple and fun!
 
 - [Live Site](https://my-film-blog-pp4-d9dc642517af.herokuapp.com/)
 
@@ -188,6 +186,10 @@ The font used in this project was inspired by a desire to use an uncommon font w
 ### Footer
 <img src="images/filmreview-footer.png" alt="About Page" style="width: 100%;"><br>
 - This project has a clean footer with the year of incorporation and the name of the writer.
+
+### 404 page
+<img src="images/filmreview-404.png" alt="About Page" style="width: 100%;"><br>
+- This project has a customised 404 page to enhance user experience.
 
 [Back to Top](#ux)
 
@@ -652,14 +654,14 @@ To create a copy of the repository in your account so you can modify independent
 
 - [StoriesOnBoard Blog](https://storiesonboard.com/blog/user-story-examples) inspired some of the language used in my User Stories write up.
 
-- [Maria Pavlenko's Blog](https://www.altexsoft.com/blog/user-stories/) inspired some of the language used in my User Stories write u and template.
+- [Maria Pavlenko's Blog](https://www.altexsoft.com/blog/user-stories/) inspired some of the language used in my User Stories write up and template.
 
 ### [Media](#media)
 - [Vintage Film Claper with Reel and Camera](https://depositphotos.com/photos/film.html?qview=210519084) used as default photo for posts.
 
 - [F1 Photo](https://www.imdb.com/title/tt16311594/mediaviewer/rm3614620162/?ref_=tt_ov_i) used as blog photo for F1 film review.
 
--[Straw Photo](https://www.imdb.com/title/tt32550101/mediaviewer/rm2490795778/?ref_=tt_ov_i) used as blog photo for Straw film review.
+- [Straw Photo](https://www.imdb.com/title/tt32550101/mediaviewer/rm2490795778/?ref_=tt_ov_i) used as blog photo for Straw film review.
 
 - [Time Cut Photo](https://en.wikipedia.org/wiki/Time_Cut#/media/File:Time_Cut_film_poster.jpg) used as blog photo for Time Cut film review.
 
@@ -683,6 +685,10 @@ To create a copy of the repository in your account so you can modify independent
 - [Configuration Parameters](https://cloudinary.com/documentation/cloudinary_sdks#configuration_parameters) useful during testing to force Cloudinary to serve image URLs over HTTPS instead of HTTP.
 
 - [Django Documentation - The Form Rendering API](https://docs.djangoproject.com/en/4.2/ref/forms/renderers/) useful for customising the Submit Film Request form layout.
+
+- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes) useful for styling 'About Page' header trailers.
+
+-[Learn Django Blog](https://learndjango.com/tutorials/customizing-django-404-and-500-error-pages) useful for learning how to customise Django 404 Error Page.
 
 [Back to Top](#ux)
 
