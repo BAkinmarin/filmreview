@@ -185,6 +185,8 @@ The font used in this project was inspired by a desire to use an uncommon font w
 
 - Introduce polling system for film review requests and highlight on feature page.
 
+- Introduce functionality for users to sort through existing film reviews by Genre.
+
 [Back to Top](#ux)
 
 ## Technologies
@@ -636,6 +638,8 @@ To create a copy of the repository in your account so you can modify independent
 
 ### [Media](#media)
 - [Vintage Film Claper with Reel and Camera](https://depositphotos.com/photos/film.html?qview=210519084) used as default photo for posts.
+
+- [F1 Photo](https://www.imdb.com/title/tt16311594/mediaviewer/rm3614620162/?ref_=tt_ov_i) used as blog photo for F1 film review.
 
 -[Straw Photo](https://www.imdb.com/title/tt32550101/mediaviewer/rm2490795778/?ref_=tt_ov_i) used as blog photo for Straw film review.
 
