@@ -290,6 +290,48 @@ a {
     color: #004643;
 }
 
+/* Search results */
+.thumbnail {
+  list-style-type: none;
+}
+
+.thumbnail li {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem;
+  transition: background-color 0.3s ease;
+}
+
+.thumbnail li:last-child {
+  border-bottom: none;
+}
+
+.thumbnail a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  width: 100%;
+}
+
+.thumb-img {
+  width: 60px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-right: 1rem;
+  box-shadow: 0 0 6px rgba(0,0,0,0.5);
+}
+
+.thumb-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.search-thumbnails li:hover .thumb-title {
+  color: #000;
+}
+
+/* Submit review request */
 .submit-link {
     text-decoration: underline;
 }
