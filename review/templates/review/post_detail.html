@@ -52,14 +52,14 @@
           <!-- Iterate through each comment in comments -->
           {% for comment in comments %}
           <div class="p-2 comments{% if not comment.approved and comment.author == user %} faded{% elif not comment.approved %}d-none{% endif %}">
-            <p class="font-weight-bold">
+            <p class="font-weight-bold comment-author">
               {{ comment.author }}
               <span class="font-weight-normal">
                 {{ comment.created_on }}
               </span> wrote:
             </p>
-            <div id="comment{{ comment.id }}">
-              {{ comment.body | linebreaks }}
+            <div id="comment{{ comment.id }}" class="comment-quote">
+              "{{ comment.body | linebreaksbr }}"
             </div>
             {% if not comment.approved and comment.author == user %}
             <p class="approval">This comment is awaiting approval</p>
