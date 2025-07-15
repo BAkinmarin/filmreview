@@ -563,6 +563,11 @@ The font used in this project was inspired by a desire to use an uncommon font w
                     <td>Used Cloudinary to host media files</td>
                     <td>Fixed</td>
                 </tr>
+                <tr>
+                    <td>All comments displayed for all users prior to approval</td>
+                    <td>Updated logic to filter by approved or user-specific comments</td>
+                    <td>Fixed</td>
+                </tr>
             </table>
         </div>
     </div>

@@ -37,7 +37,7 @@ def post_detail(request, slug):
         ).order_by("-created_on")
     else:
         comments = post.comments.filter(approved=True).order_by("-created_on")
-    
+
     comment_count = post.comments.filter(approved=True).count()
 
     if request.method == "POST":
