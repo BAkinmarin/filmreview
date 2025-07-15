@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Federo&family=Fira+Mono:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Federo&family=Fira+Mono:wght@400;500;700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 body {
     background-color: #FDFBED;
@@ -20,6 +20,27 @@ h2 {
     font-size: 2rem;
     font-weight: 700;
     color: #004643;
+}
+
+h3 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.comment-author {
+    font-family: "Fira Mono", monospace;
+    font-weight: 500;
+}
+
+.comment-text {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.comment-quote {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  border-left: 4px solid #004643;
+  padding-left: 1rem;
+  margin: 1rem 0;
 }
 
 .red-o {
