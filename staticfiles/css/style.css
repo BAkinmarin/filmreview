@@ -29,6 +29,7 @@ h3 {
 .comment-author {
     font-family: "Fira Mono", monospace;
     font-weight: 500;
+    text-transform: capitalize;
 }
 
 .comment-text {

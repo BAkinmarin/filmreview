@@ -123,6 +123,7 @@ The colours used in this project was inspired by what they symbolise:
 The font used in this project was inspired by a desire to use an uncommon font without detracting from its readability. After a brief search on Google, the following Google Fonts imports were used:
 - 'Federo' as the main font for all text
 - 'Sans-Serif' as the default in case 'Federo' fails
+- 'Roboto Mono' as the text to be used in the comments section
 - 'Fira Mono' as the post-subtitle text containing author, date and time stamp
 
 [Back to Top](#ux)
@@ -170,13 +171,14 @@ The font used in this project was inspired by a desire to use an uncommon font w
 
 ### About
 <img src="images/filmreview-about.png" alt="About Page" style="width: 100%;"><br>
-- The 'About' page includes a blurb about the reason for the blog and seeks to give visitors some insight into the owner, and their passion for film.
+- The 'About' page includes a blurb about the reason for the blog and seeks to give visitors some insight into the writer, and their passion for film.
 
-- The page also includes a 'Film Review'submission form for users to submit film titles they specifically want reviewed and why.
+- The page also includes a 'Film Review' submission form for users to submit film titles they specifically want reviewed and why.
 
-- User authentication is applied to the form, disabling unregistered users from submitting film review requests. To encourage unregistered users at this point to register on the blogsite, quick access to 'Login' and 'Register' is provided within the form. Once the necessary action is complete, the user is then redirected here to pick up from where they left off.
+- User authentication is applied to the form, disabling unregistered users from submitting film review requests. This is to encourage unregistered users at this point to register on the blogsite. Quick access to both 'Login' and 'Register' links are provided within the form. Once the necessary action is complete, the user is then redirected here to pick up from where they left off.
 
-- Also included on this page is an invitation to users to 
+<img src="images/filmreview-about-logged-in.png" alt="About Page" style="width: 100%;"><br>
+- Also included on this page is an invitation for users to explore some of my other work.
 
 [Back to Top](#ux)
 

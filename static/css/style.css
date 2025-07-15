@@ -29,10 +29,17 @@ h3 {
 .comment-author {
     font-family: "Fira Mono", monospace;
     font-weight: 500;
+    text-transform: capitalize;
 }
 
 .comment-text {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+
+.posting-as-text {
+    font-family: "Fira Mono", monospace;
+    font-weight: 500;
 }
 
 .comment-quote {
