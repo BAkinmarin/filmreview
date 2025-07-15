@@ -29,7 +29,15 @@ def post_detail(request, slug):
 
     queryset = Post.objects.filter(status=1)
     post = get_object_or_404(queryset, slug=slug)
-    comments = post.comments.all().order_by("-created_on")
+
+    # Get approved comments OR (if logged in) the user's unapproved ones
+    if request.user.is_authenticated:
+        comments = post.comments.filter(
+            Q(approved=True) | Q(author=request.user)
+        ).order_by("-created_on")
+    else:
+        comments = post.comments.filter(approved=True).order_by("-created_on")
+    
     comment_count = post.comments.filter(approved=True).count()
 
     if request.method == "POST":

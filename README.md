@@ -39,8 +39,6 @@ This blog was created following the Five Planes of Website Design, ensuring a th
 
 As a user, I want to modify or delete comments previously left on posts.
 
-As a user, I want to know what films are yet to be released and their release date.
-
 As a user, I want to be able to search for a specific film review and view comments from other visitors.
 
 As a user, I want to interact with both film reviews from the author and comments from other visitors.
@@ -199,6 +197,8 @@ The font used in this project was inspired by a desire to use an uncommon font w
 - Introduce polling system for film review requests and highlight on feature page.
 
 - Introduce functionality for users to sort through existing film reviews by Genre.
+
+- Introduce section for users to view what films are yet to be released and their release date.
 
 [Back to Top](#ux)
 
