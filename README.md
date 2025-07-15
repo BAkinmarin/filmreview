@@ -132,8 +132,8 @@ The font used in this project was inspired by a desire to use an uncommon font w
 <img src="images/filmreview-navbar.png" alt="NavBar - Large Devices" style="width: 100%;"><br>
 - This project includes a fully responsive navigation bar on all pages and consists of links to the various pages listed on the left side of the Blog Name, which doubles up as a Logo. There is also a fully functional 'Search Bar' for quick access to specific film reviews.
 
-<img src="images/filmreview-burger.png" alt="NavBar - Burger Icon" style="width: 49%;">
-<img src="images/filmreview-burger-expanded.png" alt="NavBar - Burger Icon Expanded" style="width: 49%;"><br>
+<img src="images/filmreview-burger.png" alt="NavBar - Burger Icon" style="width: 48%;">
+<img src="images/filmreview-burger-expanded.png" alt="NavBar - Burger Icon Expanded" style="width: 48%;"><br>
 - On smaller devices, the navigation bar is a burger icon, providing easy transition between various pages without the need of the 'Back' browser button. Clicking the Blog Name / Logo also takes the user to the 'Home Page' from anywhere in the Blog.
 
 ### Landing
@@ -141,6 +141,8 @@ The font used in this project was inspired by a desire to use an uncommon font w
 - The landing page opens with a clear delivery of the purpose of the blogsite - with a display of a maximum of 6 reviews, showing the title, a cover photo and excerpt.
 
 - Additionally, there is a login status at the top right corner of the blogsite letting the user know if they are logged in or not.
+
+- Furthermore, to mitigate the danger of unlimited scrolling and eventual boredom on the user experience, the landing page has a paginated view and loads a maximum of six reviews per page.
 
 <img src="images/filmreview-landing-login.png" alt="Landing Page - Logged in" style="width: 100%;"><br>
 - If not logged in, they see the first image above with the message "You are not logged in" displayed in red. Alternatively, they see a message "You are logged in as (username)" displayed immediately above this text.
@@ -172,7 +174,9 @@ The font used in this project was inspired by a desire to use an uncommon font w
 
 - The page also includes a 'Film Review'submission form for users to submit film titles they specifically want reviewed and why.
 
-- Restrictions are applied to the form prohibiting unregistered users from submitting their requests. This is achieved with the inclusion of 'Login' and 'Register' links within the form which redirect the user to the page once they have either logged in or registered.
+- User authentication is applied to the form, disabling unregistered users from submitting film review requests. To encourage unregistered users at this point to register on the blogsite, quick access to 'Login' and 'Register' is provided within the form. Once the necessary action is complete, the user is then redirected here to pick up from where they left off.
+
+- Also included on this page is an invitation to users to 
 
 [Back to Top](#ux)
 
@@ -632,6 +636,8 @@ To create a copy of the repository in your account so you can modify independent
 
 ### [Media](#media)
 - [Vintage Film Claper with Reel and Camera](https://depositphotos.com/photos/film.html?qview=210519084) used as default photo for posts.
+
+-[Straw Photo](https://www.imdb.com/title/tt32550101/mediaviewer/rm2490795778/?ref_=tt_ov_i) used as blog photo for Straw film review.
 
 - [Time Cut Photo](https://en.wikipedia.org/wiki/Time_Cut#/media/File:Time_Cut_film_poster.jpg) used as blog photo for Time Cut film review.
 
