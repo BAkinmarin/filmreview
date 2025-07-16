@@ -13,9 +13,9 @@
                 <!-- Image on the left -->
                 <div class="col-md-2">
                     {% if "placeholder" in post.post_image.url %}
-                    <img src="{% static 'images/default.png' %}" alt="Image for {{ post.title }}" class="img-fluid" style="width: 100%; height: auto;">
+                    <img src="{% static 'images/default.png' %}" alt="Image for {{ post.title }}" class="img-fluid" style="max-width: 100%; height: auto;" loading="lazy">
                     {% else %}
-                    <img src="{{ post.post_image.url }}" alt="Image for {{ post.title }}" class="img-fluid" style="width: 100%; height: auto;">
+                    <img src="{{ post.post_image.url }}" alt="Image for {{ post.title }}" class="img-fluid" style="max-width: 100%; height: auto;" loading="lazy">
                     {% endif %}
                 </div>
                 <!-- Title, Description, and Date on the right -->

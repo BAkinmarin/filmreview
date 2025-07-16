@@ -490,7 +490,7 @@ The font used in this project was inspired by a desire to use an uncommon font w
 
 ### Google Lighthouse
 #### Landing Page
-<img src="images/filmreview-lighthouse-index.png" alt="Landing Page Lighthouse Result" style="width: 100%;"><br>
+<img src="images/filmreview-lighthouse-landing.png" alt="Landing Page Lighthouse Result" style="width: 100%;"><br>
 
 #### Sign Up Page
 <img src="images/filmreview-lighthouse-signup.png" alt="Signup Page Lighthouse Result" style="width: 100%;"><br>
