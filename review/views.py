@@ -137,7 +137,8 @@ def about(request):
         form = ReviewRequestForm(request.POST)
         if form.is_valid():
             form.save()
-            messages.success(request, "🎉 We've got your request! Check back later!")
+            messages.success
+            (request, "🎉 We've got your request! Check back later!")
             return redirect('about')
 
     # Reset Request Form
