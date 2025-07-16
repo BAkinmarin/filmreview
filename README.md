@@ -150,7 +150,10 @@ The font used in this project was inspired by a desire to use an uncommon font w
 
 ### Comments
 <img src="images/filmreview-comments-no-login.png" alt="Comments - Not Logged in" style="width: 100%;"><br>
-- To encourage users to engage with content, they are able to view comments and without the need to register or login. However, they are unable to comment or interact with existing comments if they are not registered and signed in. The above image shows the comments view withcomment count for a user that isn't logged in.
+- To encourage users to engage with content, they are able to view comments and without the need to register or login. However, they are unable to comment or interact with existing comments if they are not registered and signed in. The above image shows the comments view with comment count for a user that isn't logged in.
+
+<img src="images/filmreview-user-comments-view.jpg" alt="Comments - Not Logged in" style="width: 100%;"><br>
+- The above image shows the comments view of a logged in user and their ability to edit, update and delete their comments.
 
 - The comments view also displays the number of comments on a post.
 
@@ -500,6 +503,9 @@ The font used in this project was inspired by a desire to use an uncommon font w
 
 #### About Page
 <img src="images/filmreview-lighthouse-about.png" alt="About Page Lighthouse Result" style="width: 100%;"><br>
+
+#### Search Page
+<img src="images/filmreview-lighthouse-search.png" alt="About Page Lighthouse Result" style="width: 100%;"><br>
 
 [Back to Top](#ux)
 
